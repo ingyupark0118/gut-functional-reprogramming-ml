@@ -1,0 +1,91 @@
+#!/bin/bash
+
+# ==============================================================================
+# MAG Reconstruction & Analysis Pipeline
+# Description: This script outlines the steps for Metagenome-Assembled Genome (MAG)
+#              reconstruction, including assembly, binning, taxonomic classification,
+#              and functional annotation.
+# Tools used: MEGAHIT, Bowtie2, Samtools, MetaBAT2, GTDB-Tk, Prokka
+# ==============================================================================
+
+# Define Variables (Replace with actual paths and IDs)
+SAMPLE_ID="Sample_01"
+THREADS=4
+INPUT_FASTQ="cleaned_data/${SAMPLE_ID}.fastq.gz"
+OUTPUT_DIR="results/${SAMPLE_ID}"
+
+mkdir -p ${OUTPUT_DIR}
+
+# ------------------------------------------------------------------------------
+# Step 1: Metagenomic Assembly (MEGAHIT)
+# Reconstruct contigs from short reads using meta-sensitive preset.
+# ------------------------------------------------------------------------------
+echo "Step 1: Running Assembly..."
+
+megahit -r ${INPUT_FASTQ} \
+    -o ${OUTPUT_DIR}/01_assembly \
+    --presets meta-sensitive \
+    --min-contig-len 1000 \
+    -t ${THREADS}
+
+# ------------------------------------------------------------------------------
+# Step 2: Read Mapping & Depth Calculation (Bowtie2 & Samtools)
+# Map original reads back to contigs to calculate coverage depth required for binning.
+# ------------------------------------------------------------------------------
+echo "Step 2: Calculating Contig Depths..."
+
+# Index the assembled contigs
+bowtie2-build ${OUTPUT_DIR}/01_assembly/final.contigs.fa ${OUTPUT_DIR}/contig_index
+
+# Map reads and sort BAM file
+bowtie2 -x ${OUTPUT_DIR}/contig_index \
+    -U ${INPUT_FASTQ} \
+    -p ${THREADS} \
+    | samtools view -bS - | samtools sort -o ${OUTPUT_DIR}/aln.sorted.bam
+
+# Index BAM file
+samtools index ${OUTPUT_DIR}/aln.sorted.bam
+
+# Calculate depth (MetaBAT2 requirement)
+jgi_summarize_bam_contig_depths \
+    --outputDepth ${OUTPUT_DIR}/depth.txt \
+    --minContigLength 1000 \
+    ${OUTPUT_DIR}/aln.sorted.bam
+
+# ------------------------------------------------------------------------------
+# Step 3: Binning (MetaBAT2)
+# Group contigs into bins (putative genomes) based on tetranucleotide frequency and abundance.
+# ------------------------------------------------------------------------------
+echo "Step 3: Binning Contigs..."
+
+metabat2 -i ${OUTPUT_DIR}/01_assembly/final.contigs.fa \
+    -a ${OUTPUT_DIR}/depth.txt \
+    -o ${OUTPUT_DIR}/02_bins/bin \
+    -t ${THREADS}
+
+# ------------------------------------------------------------------------------
+# Step 4: Taxonomic Classification (GTDB-Tk)
+# Assign taxonomy to the recovered bins using the GTDB database.
+# ------------------------------------------------------------------------------
+echo "Step 4: Classifying MAGs..."
+
+gtdbtk classify_wf \
+    --genome_dir ${OUTPUT_DIR}/02_bins \
+    --out_dir ${OUTPUT_DIR}/03_taxonomy \
+    --cpus 4 \
+    --skip_ani_screen \
+    --extension .fa
+
+# ------------------------------------------------------------------------------
+# Step 5: Functional Annotation (Prokka)
+# Annotate genes for a specific MAG of interest (e.g., Bin 9).
+# ------------------------------------------------------------------------------
+echo "Step 5: Annotating Specific MAG..."
+
+TARGET_BIN="${OUTPUT_DIR}/02_bins/bin.9.fa"  # Example target bin
+
+prokka --outdir ${OUTPUT_DIR}/04_annotation/L_crispatus \
+    --prefix Lc_${SAMPLE_ID} \
+    ${TARGET_BIN}
+
+echo "Pipeline Completed."
