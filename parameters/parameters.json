@@ -1,0 +1,893 @@
+{
+ "seeds": {
+  "nested_cv_outer_seeds": [
+   42,
+   43,
+   44,
+   45,
+   46
+  ],
+  "nested_cv_inner_split_and_models": "same seed as the outer run (42-46)",
+  "conqur_per_taxon": "set.seed(20260930 + taxon column index)",
+  "bootstrap_auroc_ci": {
+   "replicates": 2000,
+   "seeds": [
+    20261002,
+    20261005
+   ]
+  },
+  "sparcc": {
+   "base_seed": 20261002,
+   "per_network_seed_list": "[base, taxon-set index, group index, draw index + 1]",
+   "louvain_seeds": "0-9"
+  },
+  "sparcc_subsample_draws": {
+   "seed": 20261002,
+   "draws": 100,
+   "size": 14
+  },
+  "spearman_network_subsample": {
+   "seed_n14": 20261005,
+   "seed_n13_sensitivity": 20261006,
+   "replicates": 1000,
+   "size": 14
+  },
+  "permanova": {
+   "permutations": 999,
+   "seed": 1
+  },
+  "habitat_placement_permutation": {
+   "permutations": 10000,
+   "seed": 20261005,
+   "ordination_permutations": 9999
+  },
+  "habitat_expected_recalculation": {
+   "permutations": 100000,
+   "seed": 20261008
+  },
+  "reference_selection": {
+   "tree_genomes_seed": 20261001,
+   "habitat_genome_set_seed": 20261005
+  },
+  "bowtie2_seed": 20261005,
+  "iqtree_seed": 42,
+  "boruta_seed": "outer seed 42-46"
+ },
+ "cv_design": {
+  "comparisons": [
+   "NC vs DM",
+   "Cirrhosis vs CDM",
+   "NC vs Cirrhosis",
+   "DM vs CDM"
+  ],
+  "feature_inputs": [
+   "species",
+   "KO",
+   "species+KO"
+  ],
+  "outer_folds": 5,
+  "outer_seeds": 5,
+  "outer_folds_per_comparison_and_input": 25,
+  "inner_folds": 3,
+  "outer_split": "stratified, shuffled",
+  "in_fold_preprocessing": [
+   "prevalence >= 10% learned on the outer training fold only",
+   "log10(x + pseudocount)",
+   "standardisation fit on the outer training fold"
+  ],
+  "feature_selection": "Boruta re-run inside every inner training fold and again on the full outer training fold",
+  "hyperparameter_selection": "highest mean inner-validation AUROC",
+  "models": [
+   "XGBoost",
+   "L2 logistic regression"
+  ],
+  "datasets": {
+   "primary": "raw species profiles",
+   "sensitivity": "ConQuR-corrected species profiles"
+  }
+ },
+ "model_settings": {
+  "boruta": {
+   "implementation": "BorutaPy",
+   "max_iter": 1000,
+   "alpha": 0.05,
+   "perc": 100,
+   "n_estimators": "auto",
+   "base_estimator": "random forest, max_depth 5, balanced class weights"
+  },
+  "xgboost_fixed": {
+   "eval_metric": "logloss",
+   "tree_method": "hist",
+   "n_jobs": 1,
+   "other": "library defaults"
+  },
+  "logistic_regression_fixed": {
+   "penalty": "l2",
+   "solver": "lbfgs",
+   "max_iter": 5000
+  }
+ },
+ "hyperparameter_grids": {
+  "xgboost": {
+   "n_estimators": [
+    100,
+    300
+   ],
+   "max_depth": [
+    3,
+    5,
+    7
+   ],
+   "learning_rate": [
+    0.01,
+    0.1
+   ],
+   "subsample": [
+    0.8,
+    1.0
+   ],
+   "scale_pos_weight": [
+    "1",
+    "negative/positive class ratio of the training fold"
+   ],
+   "combinations": 72
+  },
+  "logistic_regression": {
+   "C": [
+    0.01,
+    0.1,
+    1,
+    10,
+    100
+   ]
+  }
+ },
+ "selected_hyperparameters_summary": {
+  "file": "selected_hyperparameters_by_fold (fold level; one row per outer fold and seed; no sample-level rows)",
+  "columns": [
+   "comparison",
+   "g",
+   "input",
+   "seed",
+   "fold",
+   "xgb_n_estimators",
+   "xgb_max_depth",
+   "xgb_learning_rate",
+   "xgb_subsample",
+   "xgb_scale_pos_weight",
+   "lr_C"
+  ],
+  "rows": {
+   "raw_species": 274,
+   "ConQuR_species": 277
+  },
+  "maximum_rows": 300,
+  "note": "rows below 300 because some outer folds yielded no usable result; counts below are number of outer folds choosing each value",
+  "counts": {
+   "raw_species": {
+    "Cirrhosis vs CDM": {
+     "combined": {
+      "n_outer_fold_rows": 15,
+      "of_25": 25,
+      "xgb_n_estimators": {
+       "100": 13,
+       "300": 2
+      },
+      "xgb_max_depth": {
+       "3": 15
+      },
+      "xgb_learning_rate": {
+       "0.01": 8,
+       "0.1": 7
+      },
+      "xgb_subsample": {
+       "0.8": 7,
+       "1.0": 8
+      },
+      "lr_C": {
+       "0.01": 7,
+       "0.1": 1,
+       "1.0": 1,
+       "10.0": 1,
+       "100.0": 5
+      },
+      "xgb_scale_pos_weight_equals_1": 4,
+      "xgb_scale_pos_weight_class_ratio": 11
+     },
+     "ko": {
+      "n_outer_fold_rows": 17,
+      "of_25": 25,
+      "xgb_n_estimators": {
+       "100": 14,
+       "300": 3
+      },
+      "xgb_max_depth": {
+       "3": 17
+      },
+      "xgb_learning_rate": {
+       "0.01": 8,
+       "0.1": 9
+      },
+      "xgb_subsample": {
+       "0.8": 10,
+       "1.0": 7
+      },
+      "lr_C": {
+       "0.01": 8,
+       "0.1": 2,
+       "1.0": 2,
+       "10.0": 4,
+       "100.0": 1
+      },
+      "xgb_scale_pos_weight_equals_1": 5,
+      "xgb_scale_pos_weight_class_ratio": 12
+     },
+     "species": {
+      "n_outer_fold_rows": 17,
+      "of_25": 25,
+      "xgb_n_estimators": {
+       "100": 12,
+       "300": 5
+      },
+      "xgb_max_depth": {
+       "3": 17
+      },
+      "xgb_learning_rate": {
+       "0.01": 7,
+       "0.1": 10
+      },
+      "xgb_subsample": {
+       "0.8": 12,
+       "1.0": 5
+      },
+      "lr_C": {
+       "0.01": 10,
+       "0.1": 1,
+       "1.0": 3,
+       "10.0": 3
+      },
+      "xgb_scale_pos_weight_equals_1": 12,
+      "xgb_scale_pos_weight_class_ratio": 5
+     }
+    },
+    "DM vs CDM": {
+     "combined": {
+      "n_outer_fold_rows": 25,
+      "of_25": 25,
+      "xgb_n_estimators": {
+       "100": 17,
+       "300": 8
+      },
+      "xgb_max_depth": {
+       "3": 25
+      },
+      "xgb_learning_rate": {
+       "0.01": 20,
+       "0.1": 5
+      },
+      "xgb_subsample": {
+       "0.8": 13,
+       "1.0": 12
+      },
+      "lr_C": {
+       "0.01": 7,
+       "0.1": 6,
+       "1.0": 4,
+       "10.0": 5,
+       "100.0": 3
+      },
+      "xgb_scale_pos_weight_equals_1": 9,
+      "xgb_scale_pos_weight_class_ratio": 16
+     },
+     "ko": {
+      "n_outer_fold_rows": 25,
+      "of_25": 25,
+      "xgb_n_estimators": {
+       "100": 16,
+       "300": 9
+      },
+      "xgb_max_depth": {
+       "3": 25
+      },
+      "xgb_learning_rate": {
+       "0.01": 13,
+       "0.1": 12
+      },
+      "xgb_subsample": {
+       "0.8": 14,
+       "1.0": 11
+      },
+      "lr_C": {
+       "0.01": 7,
+       "0.1": 5,
+       "1.0": 4,
+       "10.0": 3,
+       "100.0": 6
+      },
+      "xgb_scale_pos_weight_equals_1": 10,
+      "xgb_scale_pos_weight_class_ratio": 15
+     },
+     "species": {
+      "n_outer_fold_rows": 25,
+      "of_25": 25,
+      "xgb_n_estimators": {
+       "100": 14,
+       "300": 11
+      },
+      "xgb_max_depth": {
+       "3": 25
+      },
+      "xgb_learning_rate": {
+       "0.01": 16,
+       "0.1": 9
+      },
+      "xgb_subsample": {
+       "0.8": 20,
+       "1.0": 5
+      },
+      "lr_C": {
+       "0.01": 13,
+       "0.1": 6,
+       "1.0": 2,
+       "10.0": 3,
+       "100.0": 1
+      },
+      "xgb_scale_pos_weight_equals_1": 16,
+      "xgb_scale_pos_weight_class_ratio": 9
+     }
+    },
+    "NC vs Cirrhosis": {
+     "combined": {
+      "n_outer_fold_rows": 25,
+      "of_25": 25,
+      "xgb_n_estimators": {
+       "100": 13,
+       "300": 12
+      },
+      "xgb_max_depth": {
+       "3": 24,
+       "5": 1
+      },
+      "xgb_learning_rate": {
+       "0.01": 13,
+       "0.1": 12
+      },
+      "xgb_subsample": {
+       "0.8": 21,
+       "1.0": 4
+      },
+      "lr_C": {
+       "0.01": 13,
+       "0.1": 9,
+       "10.0": 1,
+       "100.0": 2
+      },
+      "xgb_scale_pos_weight_equals_1": 10,
+      "xgb_scale_pos_weight_class_ratio": 15
+     },
+     "ko": {
+      "n_outer_fold_rows": 25,
+      "of_25": 25,
+      "xgb_n_estimators": {
+       "100": 14,
+       "300": 11
+      },
+      "xgb_max_depth": {
+       "3": 23,
+       "5": 2
+      },
+      "xgb_learning_rate": {
+       "0.01": 11,
+       "0.1": 14
+      },
+      "xgb_subsample": {
+       "0.8": 20,
+       "1.0": 5
+      },
+      "lr_C": {
+       "0.01": 12,
+       "0.1": 8,
+       "1.0": 4,
+       "10.0": 1
+      },
+      "xgb_scale_pos_weight_equals_1": 8,
+      "xgb_scale_pos_weight_class_ratio": 17
+     },
+     "species": {
+      "n_outer_fold_rows": 25,
+      "of_25": 25,
+      "xgb_n_estimators": {
+       "100": 14,
+       "300": 11
+      },
+      "xgb_max_depth": {
+       "3": 19,
+       "5": 6
+      },
+      "xgb_learning_rate": {
+       "0.01": 12,
+       "0.1": 13
+      },
+      "xgb_subsample": {
+       "0.8": 20,
+       "1.0": 5
+      },
+      "lr_C": {
+       "0.01": 12,
+       "0.1": 8,
+       "1.0": 4,
+       "10.0": 1
+      },
+      "xgb_scale_pos_weight_equals_1": 9,
+      "xgb_scale_pos_weight_class_ratio": 16
+     }
+    },
+    "NC vs DM": {
+     "combined": {
+      "n_outer_fold_rows": 25,
+      "of_25": 25,
+      "xgb_n_estimators": {
+       "100": 13,
+       "300": 12
+      },
+      "xgb_max_depth": {
+       "3": 15,
+       "5": 8,
+       "7": 2
+      },
+      "xgb_learning_rate": {
+       "0.01": 15,
+       "0.1": 10
+      },
+      "xgb_subsample": {
+       "0.8": 9,
+       "1.0": 16
+      },
+      "lr_C": {
+       "0.01": 10,
+       "0.1": 3,
+       "1.0": 3,
+       "10.0": 1,
+       "100.0": 8
+      },
+      "xgb_scale_pos_weight_equals_1": 10,
+      "xgb_scale_pos_weight_class_ratio": 15
+     },
+     "ko": {
+      "n_outer_fold_rows": 25,
+      "of_25": 25,
+      "xgb_n_estimators": {
+       "100": 14,
+       "300": 11
+      },
+      "xgb_max_depth": {
+       "3": 12,
+       "5": 13
+      },
+      "xgb_learning_rate": {
+       "0.01": 12,
+       "0.1": 13
+      },
+      "xgb_subsample": {
+       "0.8": 17,
+       "1.0": 8
+      },
+      "lr_C": {
+       "0.01": 9,
+       "0.1": 2,
+       "1.0": 7,
+       "10.0": 4,
+       "100.0": 3
+      },
+      "xgb_scale_pos_weight_equals_1": 18,
+      "xgb_scale_pos_weight_class_ratio": 7
+     },
+     "species": {
+      "n_outer_fold_rows": 25,
+      "of_25": 25,
+      "xgb_n_estimators": {
+       "100": 17,
+       "300": 8
+      },
+      "xgb_max_depth": {
+       "3": 10,
+       "5": 13,
+       "7": 2
+      },
+      "xgb_learning_rate": {
+       "0.01": 16,
+       "0.1": 9
+      },
+      "xgb_subsample": {
+       "0.8": 12,
+       "1.0": 13
+      },
+      "lr_C": {
+       "0.01": 14,
+       "0.1": 4,
+       "1.0": 2,
+       "10.0": 4,
+       "100.0": 1
+      },
+      "xgb_scale_pos_weight_equals_1": 10,
+      "xgb_scale_pos_weight_class_ratio": 15
+     }
+    }
+   },
+   "ConQuR_species": {
+    "Cirrhosis vs CDM": {
+     "combined": {
+      "n_outer_fold_rows": 16,
+      "of_25": 25,
+      "xgb_n_estimators": {
+       "100": 12,
+       "300": 4
+      },
+      "xgb_max_depth": {
+       "3": 16
+      },
+      "xgb_learning_rate": {
+       "0.01": 10,
+       "0.1": 6
+      },
+      "xgb_subsample": {
+       "0.8": 9,
+       "1.0": 7
+      },
+      "lr_C": {
+       "0.01": 8,
+       "1.0": 3,
+       "10.0": 1,
+       "100.0": 4
+      },
+      "xgb_scale_pos_weight_equals_1": 6,
+      "xgb_scale_pos_weight_class_ratio": 10
+     },
+     "ko": {
+      "n_outer_fold_rows": 17,
+      "of_25": 25,
+      "xgb_n_estimators": {
+       "100": 14,
+       "300": 3
+      },
+      "xgb_max_depth": {
+       "3": 17
+      },
+      "xgb_learning_rate": {
+       "0.01": 8,
+       "0.1": 9
+      },
+      "xgb_subsample": {
+       "0.8": 10,
+       "1.0": 7
+      },
+      "lr_C": {
+       "0.01": 8,
+       "0.1": 2,
+       "1.0": 2,
+       "10.0": 4,
+       "100.0": 1
+      },
+      "xgb_scale_pos_weight_equals_1": 5,
+      "xgb_scale_pos_weight_class_ratio": 12
+     },
+     "species": {
+      "n_outer_fold_rows": 20,
+      "of_25": 25,
+      "xgb_n_estimators": {
+       "100": 14,
+       "300": 6
+      },
+      "xgb_max_depth": {
+       "3": 18,
+       "5": 2
+      },
+      "xgb_learning_rate": {
+       "0.01": 11,
+       "0.1": 9
+      },
+      "xgb_subsample": {
+       "0.8": 13,
+       "1.0": 7
+      },
+      "lr_C": {
+       "0.01": 8,
+       "0.1": 4,
+       "1.0": 3,
+       "100.0": 5
+      },
+      "xgb_scale_pos_weight_equals_1": 8,
+      "xgb_scale_pos_weight_class_ratio": 12
+     }
+    },
+    "DM vs CDM": {
+     "combined": {
+      "n_outer_fold_rows": 25,
+      "of_25": 25,
+      "xgb_n_estimators": {
+       "100": 13,
+       "300": 12
+      },
+      "xgb_max_depth": {
+       "3": 24,
+       "5": 1
+      },
+      "xgb_learning_rate": {
+       "0.01": 16,
+       "0.1": 9
+      },
+      "xgb_subsample": {
+       "0.8": 11,
+       "1.0": 14
+      },
+      "lr_C": {
+       "0.01": 6,
+       "0.1": 8,
+       "1.0": 4,
+       "10.0": 4,
+       "100.0": 3
+      },
+      "xgb_scale_pos_weight_equals_1": 13,
+      "xgb_scale_pos_weight_class_ratio": 12
+     },
+     "ko": {
+      "n_outer_fold_rows": 25,
+      "of_25": 25,
+      "xgb_n_estimators": {
+       "100": 16,
+       "300": 9
+      },
+      "xgb_max_depth": {
+       "3": 25
+      },
+      "xgb_learning_rate": {
+       "0.01": 13,
+       "0.1": 12
+      },
+      "xgb_subsample": {
+       "0.8": 14,
+       "1.0": 11
+      },
+      "lr_C": {
+       "0.01": 7,
+       "0.1": 5,
+       "1.0": 4,
+       "10.0": 3,
+       "100.0": 6
+      },
+      "xgb_scale_pos_weight_equals_1": 10,
+      "xgb_scale_pos_weight_class_ratio": 15
+     },
+     "species": {
+      "n_outer_fold_rows": 25,
+      "of_25": 25,
+      "xgb_n_estimators": {
+       "100": 16,
+       "300": 9
+      },
+      "xgb_max_depth": {
+       "3": 24,
+       "5": 1
+      },
+      "xgb_learning_rate": {
+       "0.01": 11,
+       "0.1": 14
+      },
+      "xgb_subsample": {
+       "0.8": 13,
+       "1.0": 12
+      },
+      "lr_C": {
+       "0.01": 12,
+       "0.1": 1,
+       "1.0": 3,
+       "10.0": 5,
+       "100.0": 4
+      },
+      "xgb_scale_pos_weight_equals_1": 19,
+      "xgb_scale_pos_weight_class_ratio": 6
+     }
+    },
+    "NC vs Cirrhosis": {
+     "combined": {
+      "n_outer_fold_rows": 25,
+      "of_25": 25,
+      "xgb_n_estimators": {
+       "100": 15,
+       "300": 10
+      },
+      "xgb_max_depth": {
+       "3": 23,
+       "5": 2
+      },
+      "xgb_learning_rate": {
+       "0.01": 9,
+       "0.1": 16
+      },
+      "xgb_subsample": {
+       "0.8": 21,
+       "1.0": 4
+      },
+      "lr_C": {
+       "0.01": 15,
+       "0.1": 8,
+       "1.0": 1,
+       "10.0": 1
+      },
+      "xgb_scale_pos_weight_equals_1": 17,
+      "xgb_scale_pos_weight_class_ratio": 8
+     },
+     "ko": {
+      "n_outer_fold_rows": 25,
+      "of_25": 25,
+      "xgb_n_estimators": {
+       "100": 14,
+       "300": 11
+      },
+      "xgb_max_depth": {
+       "3": 23,
+       "5": 2
+      },
+      "xgb_learning_rate": {
+       "0.01": 11,
+       "0.1": 14
+      },
+      "xgb_subsample": {
+       "0.8": 20,
+       "1.0": 5
+      },
+      "lr_C": {
+       "0.01": 12,
+       "0.1": 8,
+       "1.0": 4,
+       "10.0": 1
+      },
+      "xgb_scale_pos_weight_equals_1": 8,
+      "xgb_scale_pos_weight_class_ratio": 17
+     },
+     "species": {
+      "n_outer_fold_rows": 25,
+      "of_25": 25,
+      "xgb_n_estimators": {
+       "100": 11,
+       "300": 14
+      },
+      "xgb_max_depth": {
+       "3": 17,
+       "5": 8
+      },
+      "xgb_learning_rate": {
+       "0.01": 18,
+       "0.1": 7
+      },
+      "xgb_subsample": {
+       "0.8": 23,
+       "1.0": 2
+      },
+      "lr_C": {
+       "0.01": 17,
+       "0.1": 8
+      },
+      "xgb_scale_pos_weight_equals_1": 9,
+      "xgb_scale_pos_weight_class_ratio": 16
+     }
+    },
+    "NC vs DM": {
+     "combined": {
+      "n_outer_fold_rows": 24,
+      "of_25": 25,
+      "xgb_n_estimators": {
+       "100": 14,
+       "300": 10
+      },
+      "xgb_max_depth": {
+       "3": 14,
+       "5": 9,
+       "7": 1
+      },
+      "xgb_learning_rate": {
+       "0.01": 16,
+       "0.1": 8
+      },
+      "xgb_subsample": {
+       "0.8": 11,
+       "1.0": 13
+      },
+      "lr_C": {
+       "0.01": 8,
+       "0.1": 6,
+       "1.0": 2,
+       "100.0": 8
+      },
+      "xgb_scale_pos_weight_equals_1": 10,
+      "xgb_scale_pos_weight_class_ratio": 14
+     },
+     "ko": {
+      "n_outer_fold_rows": 25,
+      "of_25": 25,
+      "xgb_n_estimators": {
+       "100": 14,
+       "300": 11
+      },
+      "xgb_max_depth": {
+       "3": 12,
+       "5": 13
+      },
+      "xgb_learning_rate": {
+       "0.01": 12,
+       "0.1": 13
+      },
+      "xgb_subsample": {
+       "0.8": 17,
+       "1.0": 8
+      },
+      "lr_C": {
+       "0.01": 9,
+       "0.1": 2,
+       "1.0": 7,
+       "10.0": 4,
+       "100.0": 3
+      },
+      "xgb_scale_pos_weight_equals_1": 18,
+      "xgb_scale_pos_weight_class_ratio": 7
+     },
+     "species": {
+      "n_outer_fold_rows": 25,
+      "of_25": 25,
+      "xgb_n_estimators": {
+       "100": 14,
+       "300": 11
+      },
+      "xgb_max_depth": {
+       "3": 15,
+       "5": 6,
+       "7": 4
+      },
+      "xgb_learning_rate": {
+       "0.01": 19,
+       "0.1": 6
+      },
+      "xgb_subsample": {
+       "0.8": 16,
+       "1.0": 9
+      },
+      "lr_C": {
+       "0.01": 14,
+       "0.1": 5,
+       "1.0": 2,
+       "10.0": 1,
+       "100.0": 3
+      },
+      "xgb_scale_pos_weight_equals_1": 9,
+      "xgb_scale_pos_weight_class_ratio": 16
+     }
+    }
+   }
+  }
+ },
+ "dir_sfss": {
+  "formula": "sum over nine KOs of weight x within-cohort z-score of log10(relative abundance + 1e-5), z-score with ddof = 1",
+  "pseudocount": 1e-05,
+  "weights": {
+   "K00075 murB": 1,
+   "K01512 acyP": 1,
+   "K03060 rpoZ": 1,
+   "K03799 htpX": 1,
+   "K04042 glmU": 1,
+   "K03101 lspA": -1,
+   "K03116 tatA": -1,
+   "K03687 grpE": -1,
+   "K10716 kch": -1
+  },
+  "note": "values recorded as used in the published score; the derivation code is not available"
+ },
+ "conqur": {
+  "scope": "single run over all participants",
+  "delta": 0.4999,
+  "taus": "0.005 to 0.995 step 0.005",
+  "logistic_lasso": false,
+  "quantile_type": "standard",
+  "lambda_quantile": "2p/n",
+  "interplt": false
+ }
+}

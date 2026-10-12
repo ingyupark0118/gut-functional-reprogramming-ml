@@ -1,0 +1,25 @@
+panel,row,learner,marker,colour,value,ci_low,ci_high,printed,note,feature,original_11
+A,Clinical,XGBoost,o,#5A3E9B,0.8195767195767196,0.6894047619047619,0.9296296296296296,,7 routine variables (annot only),,
+A,Clinical,L2-LR,s,#5A3E9B,0.8523809523809524,0.7825132275132275,0.9169312169312168,,7 routine variables (annot only),,
+A,Microbiome,XGBoost,o,#3AA9A1,0.7142857142857143,0.5592460317460317,0.8444708994708994,,features selected within folds (annot only),,
+A,Microbiome,L2-LR,s,#3AA9A1,0.6973544973544974,0.4899470899470899,0.8756878306878306,,features selected within folds (annot only),,
+A,Combined,XGBoost,o,#E58A9B,0.7566137566137566,0.6132275132275132,0.8804365079365079,,clinical + selected features (annot only),,
+A,Combined,L2-LR,s,#E58A9B,0.7444444444444444,0.5549999999999999,0.9042592592592592,,clinical + selected features (annot only),,
+B,Combined − Clinical,XGBoost,o,#E58A9B,-0.062962962962963,-0.2417989417989416,0.1132275132275132,−0.063 (−0.242 to 0.113)†,"† pre-specified primary comparison (footnote, annot only; dagger in both)",,
+B,Combined − Clinical,L2-LR,s,#E58A9B,-0.1079365079365078,-0.3084920634920637,0.0582142857142855,−0.108 (−0.308 to 0.058),,,
+B,Microbiome − Clinical,XGBoost,o,#3AA9A1,-0.1052910052910053,-0.3217063492063492,0.093664021164021,−0.105 (−0.322 to 0.094),,,
+B,Microbiome − Clinical,L2-LR,s,#3AA9A1,-0.1550264550264549,-0.3857539682539683,0.039153439153439,−0.155 (−0.386 to 0.039),,,
+C,acyP (K01512),,,#4D4D4D,24,,,24/25,selected in >=60% of folds,K01512,True
+C,rnfA (K03617),,,#BDBDBD,23,,,23/25,selected in >=60% of folds,K03617,False
+C,Veillonella parvula,,,#4D4D4D,23,,,23/25,selected in >=60% of folds,s__Veillonella_parvula,True
+C,secG (K03075),,,#BDBDBD,20,,,20/25,selected in >=60% of folds,K03075,False
+C,murB (K00075),,,#4D4D4D,19,,,19/25,selected in >=60% of folds,K00075,True
+C,rbcL (K01601),,,#BDBDBD,15,,,15/25,selected in >=60% of folds; _altK01601 files print K01601 only,K01601,False
+C,glmU (K04042),,,#4D4D4D,15,,,15/25,selected in >=60% of folds,K04042,True
+C,rpoZ (K03060),,,#4D4D4D,6,,,6/25,rest of original 11,K03060,True
+C,lspA (K03101),,,#4D4D4D,3,,,3/25,rest of original 11,K03101,True
+C,tatA (K03116),,,#4D4D4D,2,,,2/25,rest of original 11,K03116,True
+C,htpX (K03799),,,#4D4D4D,2,,,2/25,rest of original 11,K03799,True
+C,grpE (K03687),,,#4D4D4D,0,,,0/25,rest of original 11,K03687,True
+C,kch (K10716),,,#4D4D4D,0,,,0/25,rest of original 11,K10716,True
+C,Lactobacillus crispatus,,,#4D4D4D,0,,,0/25,rest of original 11,s__Lactobacillus_crispatus,True

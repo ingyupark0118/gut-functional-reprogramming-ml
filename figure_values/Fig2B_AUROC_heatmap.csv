@@ -1,0 +1,153 @@
+panel,kind,comparison,input,model,seed,fold,feature,cohort,quantity,value,printed,mark
+Fig2B_auroc_heatmap_v2,data,NC vs DM,Species,XGBoost,,,,,estA_auc,0.5621515151515151,0.56,cell colour + bold number
+Fig2B_auroc_heatmap_v2,data,NC vs DM,Species,XGBoost,,,,,estB_auc,0.5832719233603537,0.58,
+Fig2B_auroc_heatmap_v2,data,NC vs DM,Species,XGBoost,,,,,estB_ci_lo,0.4659211086547122,0.47,
+Fig2B_auroc_heatmap_v2,data,NC vs DM,Species,XGBoost,,,,,estB_ci_hi,0.6940603414926965,0.69,
+Fig2B_auroc_heatmap_v2,data,NC vs DM,Species,XGBoost,,,,,estB_ci_includes_0.5,1,,grey text + hatch
+Fig2B_auroc_heatmap_v2,data,NC vs DM,Species,L2-LR,,,,,estA_auc,0.575131313131313,0.58,cell colour + bold number
+Fig2B_auroc_heatmap_v2,data,NC vs DM,Species,L2-LR,,,,,estB_auc,0.5729550478997789,0.57,
+Fig2B_auroc_heatmap_v2,data,NC vs DM,Species,L2-LR,,,,,estB_ci_lo,0.457904571843251,0.46,
+Fig2B_auroc_heatmap_v2,data,NC vs DM,Species,L2-LR,,,,,estB_ci_hi,0.6856296955537385,0.69,
+Fig2B_auroc_heatmap_v2,data,NC vs DM,Species,L2-LR,,,,,estB_ci_includes_0.5,1,,grey text + hatch
+Fig2B_auroc_heatmap_v2,data,NC vs DM,KO,XGBoost,,,,,estA_auc,0.5738451178451178,0.57,cell colour + bold number
+Fig2B_auroc_heatmap_v2,data,NC vs DM,KO,XGBoost,,,,,estB_auc,0.5913780397936625,0.59,
+Fig2B_auroc_heatmap_v2,data,NC vs DM,KO,XGBoost,,,,,estB_ci_lo,0.479296252291567,0.48,
+Fig2B_auroc_heatmap_v2,data,NC vs DM,KO,XGBoost,,,,,estB_ci_hi,0.702836937936827,0.70,
+Fig2B_auroc_heatmap_v2,data,NC vs DM,KO,XGBoost,,,,,estB_ci_includes_0.5,1,,grey text + hatch
+Fig2B_auroc_heatmap_v2,data,NC vs DM,KO,L2-LR,,,,,estA_auc,0.6290639730639731,0.63,cell colour + bold number
+Fig2B_auroc_heatmap_v2,data,NC vs DM,KO,L2-LR,,,,,estB_auc,0.658069270449521,0.66,
+Fig2B_auroc_heatmap_v2,data,NC vs DM,KO,L2-LR,,,,,estB_ci_lo,0.5536185135022823,0.55,
+Fig2B_auroc_heatmap_v2,data,NC vs DM,KO,L2-LR,,,,,estB_ci_hi,0.7633901626770089,0.76,
+Fig2B_auroc_heatmap_v2,data,NC vs DM,KO,L2-LR,,,,,estB_ci_includes_0.5,0,,none
+Fig2B_auroc_heatmap_v2,data,NC vs DM,Combined,XGBoost,,,,,estA_auc,0.6022457912457913,0.60,cell colour + bold number
+Fig2B_auroc_heatmap_v2,data,NC vs DM,Combined,XGBoost,,,,,estB_auc,0.6271186440677966,0.63,
+Fig2B_auroc_heatmap_v2,data,NC vs DM,Combined,XGBoost,,,,,estB_ci_lo,0.5164989155675246,0.52,
+Fig2B_auroc_heatmap_v2,data,NC vs DM,Combined,XGBoost,,,,,estB_ci_hi,0.7396894820610089,0.74,
+Fig2B_auroc_heatmap_v2,data,NC vs DM,Combined,XGBoost,,,,,estB_ci_includes_0.5,0,,none
+Fig2B_auroc_heatmap_v2,data,NC vs DM,Combined,L2-LR,,,,,estA_auc,0.6256801346801346,0.63,cell colour + bold number
+Fig2B_auroc_heatmap_v2,data,NC vs DM,Combined,L2-LR,,,,,estB_auc,0.652542372881356,0.65,
+Fig2B_auroc_heatmap_v2,data,NC vs DM,Combined,L2-LR,,,,,estB_ci_lo,0.5454235613318148,0.55,
+Fig2B_auroc_heatmap_v2,data,NC vs DM,Combined,L2-LR,,,,,estB_ci_hi,0.7526826309117136,0.75,
+Fig2B_auroc_heatmap_v2,data,NC vs DM,Combined,L2-LR,,,,,estB_ci_includes_0.5,0,,none
+Fig2B_auroc_heatmap_v2,data,Cirrhosis vs CDM,Species,XGBoost,,,,,estA_auc,0.437037037037037,0.44,cell colour + bold number
+Fig2B_auroc_heatmap_v2,data,Cirrhosis vs CDM,Species,XGBoost,,,,,estB_auc,0.5023809523809524,0.50,
+Fig2B_auroc_heatmap_v2,data,Cirrhosis vs CDM,Species,XGBoost,,,,,estB_ci_lo,0.292063492063492,0.29,
+Fig2B_auroc_heatmap_v2,data,Cirrhosis vs CDM,Species,XGBoost,,,,,estB_ci_hi,0.7146418406072106,0.71,
+Fig2B_auroc_heatmap_v2,data,Cirrhosis vs CDM,Species,XGBoost,,,,,estB_ci_includes_0.5,1,,grey text + hatch
+Fig2B_auroc_heatmap_v2,data,Cirrhosis vs CDM,Species,XGBoost,,,,,n_folds_used,17,17,dagger
+Fig2B_auroc_heatmap_v2,data,Cirrhosis vs CDM,Species,XGBoost,,,,,n_folds_total,25,25,
+Fig2B_auroc_heatmap_v2,data,Cirrhosis vs CDM,Species,L2-LR,,,,,estA_auc,0.5090277777777777,0.51,cell colour + bold number
+Fig2B_auroc_heatmap_v2,data,Cirrhosis vs CDM,Species,L2-LR,,,,,estB_auc,0.5428571428571429,0.54,
+Fig2B_auroc_heatmap_v2,data,Cirrhosis vs CDM,Species,L2-LR,,,,,estB_ci_lo,0.3507434640522875,0.35,
+Fig2B_auroc_heatmap_v2,data,Cirrhosis vs CDM,Species,L2-LR,,,,,estB_ci_hi,0.7307758620689655,0.73,
+Fig2B_auroc_heatmap_v2,data,Cirrhosis vs CDM,Species,L2-LR,,,,,estB_ci_includes_0.5,1,,grey text + hatch
+Fig2B_auroc_heatmap_v2,data,Cirrhosis vs CDM,Species,L2-LR,,,,,n_folds_used,17,17,dagger
+Fig2B_auroc_heatmap_v2,data,Cirrhosis vs CDM,Species,L2-LR,,,,,n_folds_total,25,25,
+Fig2B_auroc_heatmap_v2,data,Cirrhosis vs CDM,KO,XGBoost,,,,,estA_auc,0.4184259259259258,0.42,cell colour + bold number
+Fig2B_auroc_heatmap_v2,data,Cirrhosis vs CDM,KO,XGBoost,,,,,estB_auc,0.3976190476190476,0.40,
+Fig2B_auroc_heatmap_v2,data,Cirrhosis vs CDM,KO,XGBoost,,,,,estB_ci_lo,0.2213350183823529,0.22,
+Fig2B_auroc_heatmap_v2,data,Cirrhosis vs CDM,KO,XGBoost,,,,,estB_ci_hi,0.590576566555432,0.59,
+Fig2B_auroc_heatmap_v2,data,Cirrhosis vs CDM,KO,XGBoost,,,,,estB_ci_includes_0.5,1,,grey text + hatch
+Fig2B_auroc_heatmap_v2,data,Cirrhosis vs CDM,KO,XGBoost,,,,,n_folds_used,17,17,dagger
+Fig2B_auroc_heatmap_v2,data,Cirrhosis vs CDM,KO,XGBoost,,,,,n_folds_total,25,25,
+Fig2B_auroc_heatmap_v2,data,Cirrhosis vs CDM,KO,L2-LR,,,,,estA_auc,0.4012962962962962,0.40,cell colour + bold number
+Fig2B_auroc_heatmap_v2,data,Cirrhosis vs CDM,KO,L2-LR,,,,,estB_auc,0.4595238095238094,0.46,
+Fig2B_auroc_heatmap_v2,data,Cirrhosis vs CDM,KO,L2-LR,,,,,estB_ci_lo,0.2753866223908918,0.28,
+Fig2B_auroc_heatmap_v2,data,Cirrhosis vs CDM,KO,L2-LR,,,,,estB_ci_hi,0.6418978748524202,0.64,
+Fig2B_auroc_heatmap_v2,data,Cirrhosis vs CDM,KO,L2-LR,,,,,estB_ci_includes_0.5,1,,grey text + hatch
+Fig2B_auroc_heatmap_v2,data,Cirrhosis vs CDM,KO,L2-LR,,,,,n_folds_used,17,17,dagger
+Fig2B_auroc_heatmap_v2,data,Cirrhosis vs CDM,KO,L2-LR,,,,,n_folds_total,25,25,
+Fig2B_auroc_heatmap_v2,data,Cirrhosis vs CDM,Combined,XGBoost,,,,,estA_auc,0.4212962962962963,0.42,cell colour + bold number
+Fig2B_auroc_heatmap_v2,data,Cirrhosis vs CDM,Combined,XGBoost,,,,,estB_auc,0.4333333333333333,0.43,
+Fig2B_auroc_heatmap_v2,data,Cirrhosis vs CDM,Combined,XGBoost,,,,,estB_ci_lo,0.2564049586776859,0.26,
+Fig2B_auroc_heatmap_v2,data,Cirrhosis vs CDM,Combined,XGBoost,,,,,estB_ci_hi,0.6166880341880341,0.62,
+Fig2B_auroc_heatmap_v2,data,Cirrhosis vs CDM,Combined,XGBoost,,,,,estB_ci_includes_0.5,1,,grey text + hatch
+Fig2B_auroc_heatmap_v2,data,Cirrhosis vs CDM,Combined,XGBoost,,,,,n_folds_used,15,15,dagger
+Fig2B_auroc_heatmap_v2,data,Cirrhosis vs CDM,Combined,XGBoost,,,,,n_folds_total,25,25,
+Fig2B_auroc_heatmap_v2,data,Cirrhosis vs CDM,Combined,L2-LR,,,,,estA_auc,0.35,0.35,cell colour + bold number
+Fig2B_auroc_heatmap_v2,data,Cirrhosis vs CDM,Combined,L2-LR,,,,,estB_auc,0.4476190476190476,0.45,
+Fig2B_auroc_heatmap_v2,data,Cirrhosis vs CDM,Combined,L2-LR,,,,,estB_ci_lo,0.2682146139705882,0.27,
+Fig2B_auroc_heatmap_v2,data,Cirrhosis vs CDM,Combined,L2-LR,,,,,estB_ci_hi,0.6309709821428571,0.63,
+Fig2B_auroc_heatmap_v2,data,Cirrhosis vs CDM,Combined,L2-LR,,,,,estB_ci_includes_0.5,1,,grey text + hatch
+Fig2B_auroc_heatmap_v2,data,Cirrhosis vs CDM,Combined,L2-LR,,,,,n_folds_used,15,15,dagger
+Fig2B_auroc_heatmap_v2,data,Cirrhosis vs CDM,Combined,L2-LR,,,,,n_folds_total,25,25,
+Fig2B_auroc_heatmap_v2,data,NC vs Cirrhosis,Species,XGBoost,,,,,estA_auc,0.8761363636363637,0.88,cell colour + bold number
+Fig2B_auroc_heatmap_v2,data,NC vs Cirrhosis,Species,XGBoost,,,,,estB_auc,0.8779661016949153,0.88,
+Fig2B_auroc_heatmap_v2,data,NC vs Cirrhosis,Species,XGBoost,,,,,estB_ci_lo,0.7925059075663758,0.79,
+Fig2B_auroc_heatmap_v2,data,NC vs Cirrhosis,Species,XGBoost,,,,,estB_ci_hi,0.9509823005954328,0.95,
+Fig2B_auroc_heatmap_v2,data,NC vs Cirrhosis,Species,XGBoost,,,,,estB_ci_includes_0.5,0,,none
+Fig2B_auroc_heatmap_v2,data,NC vs Cirrhosis,Species,L2-LR,,,,,estA_auc,0.9137373737373736,0.91,cell colour + bold number
+Fig2B_auroc_heatmap_v2,data,NC vs Cirrhosis,Species,L2-LR,,,,,estB_auc,0.9050847457627118,0.91,
+Fig2B_auroc_heatmap_v2,data,NC vs Cirrhosis,Species,L2-LR,,,,,estB_ci_lo,0.8310586422550531,0.83,
+Fig2B_auroc_heatmap_v2,data,NC vs Cirrhosis,Species,L2-LR,,,,,estB_ci_hi,0.96108724539102,0.96,
+Fig2B_auroc_heatmap_v2,data,NC vs Cirrhosis,Species,L2-LR,,,,,estB_ci_includes_0.5,0,,none
+Fig2B_auroc_heatmap_v2,data,NC vs Cirrhosis,KO,XGBoost,,,,,estA_auc,0.7983585858585859,0.80,cell colour + bold number
+Fig2B_auroc_heatmap_v2,data,NC vs Cirrhosis,KO,XGBoost,,,,,estB_auc,0.8209039548022599,0.82,
+Fig2B_auroc_heatmap_v2,data,NC vs Cirrhosis,KO,XGBoost,,,,,estB_ci_lo,0.7275862068965517,0.73,
+Fig2B_auroc_heatmap_v2,data,NC vs Cirrhosis,KO,XGBoost,,,,,estB_ci_hi,0.9011103607182585,0.90,
+Fig2B_auroc_heatmap_v2,data,NC vs Cirrhosis,KO,XGBoost,,,,,estB_ci_includes_0.5,0,,none
+Fig2B_auroc_heatmap_v2,data,NC vs Cirrhosis,KO,L2-LR,,,,,estA_auc,0.8245959595959595,0.82,cell colour + bold number
+Fig2B_auroc_heatmap_v2,data,NC vs Cirrhosis,KO,L2-LR,,,,,estB_auc,0.831638418079096,0.83,
+Fig2B_auroc_heatmap_v2,data,NC vs Cirrhosis,KO,L2-LR,,,,,estB_ci_lo,0.7374328607944035,0.74,
+Fig2B_auroc_heatmap_v2,data,NC vs Cirrhosis,KO,L2-LR,,,,,estB_ci_hi,0.9099045845286186,0.91,
+Fig2B_auroc_heatmap_v2,data,NC vs Cirrhosis,KO,L2-LR,,,,,estB_ci_includes_0.5,0,,none
+Fig2B_auroc_heatmap_v2,data,NC vs Cirrhosis,Combined,XGBoost,,,,,estA_auc,0.8259090909090909,0.83,cell colour + bold number
+Fig2B_auroc_heatmap_v2,data,NC vs Cirrhosis,Combined,XGBoost,,,,,estB_auc,0.8186440677966101,0.82,
+Fig2B_auroc_heatmap_v2,data,NC vs Cirrhosis,Combined,XGBoost,,,,,estB_ci_lo,0.7189503600188997,0.72,
+Fig2B_auroc_heatmap_v2,data,NC vs Cirrhosis,Combined,XGBoost,,,,,estB_ci_hi,0.9103453105380084,0.91,
+Fig2B_auroc_heatmap_v2,data,NC vs Cirrhosis,Combined,XGBoost,,,,,estB_ci_includes_0.5,0,,none
+Fig2B_auroc_heatmap_v2,data,NC vs Cirrhosis,Combined,L2-LR,,,,,estA_auc,0.844040404040404,0.84,cell colour + bold number
+Fig2B_auroc_heatmap_v2,data,NC vs Cirrhosis,Combined,L2-LR,,,,,estB_auc,0.8242937853107345,0.82,
+Fig2B_auroc_heatmap_v2,data,NC vs Cirrhosis,Combined,L2-LR,,,,,estB_ci_lo,0.7275783699059561,0.73,
+Fig2B_auroc_heatmap_v2,data,NC vs Cirrhosis,Combined,L2-LR,,,,,estB_ci_hi,0.908236658543606,0.91,
+Fig2B_auroc_heatmap_v2,data,NC vs Cirrhosis,Combined,L2-LR,,,,,estB_ci_includes_0.5,0,,none
+Fig2B_auroc_heatmap_v2,data,DM vs CDM,Species,XGBoost,,,,,estA_auc,0.8516666666666668,0.85,cell colour + bold number
+Fig2B_auroc_heatmap_v2,data,DM vs CDM,Species,XGBoost,,,,,estB_auc,0.8524844720496894,0.85,
+Fig2B_auroc_heatmap_v2,data,DM vs CDM,Species,XGBoost,,,,,estB_ci_lo,0.7252854930273722,0.73,
+Fig2B_auroc_heatmap_v2,data,DM vs CDM,Species,XGBoost,,,,,estB_ci_hi,0.956229416831332,0.96,
+Fig2B_auroc_heatmap_v2,data,DM vs CDM,Species,XGBoost,,,,,estB_ci_includes_0.5,0,,none
+Fig2B_auroc_heatmap_v2,data,DM vs CDM,Species,L2-LR,,,,,estA_auc,0.8842962962962962,0.88,cell colour + bold number
+Fig2B_auroc_heatmap_v2,data,DM vs CDM,Species,L2-LR,,,,,estB_auc,0.8897515527950312,0.89,
+Fig2B_auroc_heatmap_v2,data,DM vs CDM,Species,L2-LR,,,,,estB_ci_lo,0.7866381906297872,0.79,
+Fig2B_auroc_heatmap_v2,data,DM vs CDM,Species,L2-LR,,,,,estB_ci_hi,0.9675240027829312,0.97,
+Fig2B_auroc_heatmap_v2,data,DM vs CDM,Species,L2-LR,,,,,estB_ci_includes_0.5,0,,none
+Fig2B_auroc_heatmap_v2,data,DM vs CDM,KO,XGBoost,,,,,estA_auc,0.8985185185185184,0.90,cell colour + bold number
+Fig2B_auroc_heatmap_v2,data,DM vs CDM,KO,XGBoost,,,,,estB_auc,0.8975155279503105,0.90,
+Fig2B_auroc_heatmap_v2,data,DM vs CDM,KO,XGBoost,,,,,estB_ci_lo,0.7921120601472995,0.79,
+Fig2B_auroc_heatmap_v2,data,DM vs CDM,KO,XGBoost,,,,,estB_ci_hi,0.9736077578757968,0.97,
+Fig2B_auroc_heatmap_v2,data,DM vs CDM,KO,XGBoost,,,,,estB_ci_includes_0.5,0,,none
+Fig2B_auroc_heatmap_v2,data,DM vs CDM,KO,L2-LR,,,,,estA_auc,0.8182222222222222,0.82,cell colour + bold number
+Fig2B_auroc_heatmap_v2,data,DM vs CDM,KO,L2-LR,,,,,estB_auc,0.7298136645962733,0.73,
+Fig2B_auroc_heatmap_v2,data,DM vs CDM,KO,L2-LR,,,,,estB_ci_lo,0.5197484420124638,0.52,
+Fig2B_auroc_heatmap_v2,data,DM vs CDM,KO,L2-LR,,,,,estB_ci_hi,0.9083597356130336,0.91,
+Fig2B_auroc_heatmap_v2,data,DM vs CDM,KO,L2-LR,,,,,estB_ci_includes_0.5,0,,none
+Fig2B_auroc_heatmap_v2,data,DM vs CDM,Combined,XGBoost,,,,,estA_auc,0.8578518518518518,0.86,cell colour + bold number
+Fig2B_auroc_heatmap_v2,data,DM vs CDM,Combined,XGBoost,,,,,estB_auc,0.889751552795031,0.89,
+Fig2B_auroc_heatmap_v2,data,DM vs CDM,Combined,XGBoost,,,,,estB_ci_lo,0.7773654916512059,0.78,
+Fig2B_auroc_heatmap_v2,data,DM vs CDM,Combined,XGBoost,,,,,estB_ci_hi,0.9704863806935818,0.97,
+Fig2B_auroc_heatmap_v2,data,DM vs CDM,Combined,XGBoost,,,,,estB_ci_includes_0.5,0,,none
+Fig2B_auroc_heatmap_v2,data,DM vs CDM,Combined,L2-LR,,,,,estA_auc,0.827037037037037,0.83,cell colour + bold number
+Fig2B_auroc_heatmap_v2,data,DM vs CDM,Combined,L2-LR,,,,,estB_auc,0.7732919254658385,0.77,
+Fig2B_auroc_heatmap_v2,data,DM vs CDM,Combined,L2-LR,,,,,estB_ci_lo,0.6105743657937808,0.61,
+Fig2B_auroc_heatmap_v2,data,DM vs CDM,Combined,L2-LR,,,,,estB_ci_hi,0.9062681686046512,0.91,
+Fig2B_auroc_heatmap_v2,data,DM vs CDM,Combined,L2-LR,,,,,estB_ci_includes_0.5,0,,none
+Fig2B_auroc_heatmap_v2,data,NC vs DM,,,,,,NC,n_group_row_label,59,59,
+Fig2B_auroc_heatmap_v2,data,NC vs DM,,,,,,DM,n_group_row_label,46,46,
+Fig2B_auroc_heatmap_v2,data,Cirrhosis vs CDM,,,,,,Cirrhosis,n_group_row_label,30,30,
+Fig2B_auroc_heatmap_v2,data,Cirrhosis vs CDM,,,,,,CDM,n_group_row_label,14,14,
+Fig2B_auroc_heatmap_v2,data,NC vs Cirrhosis,,,,,,NC,n_group_row_label,59,59,
+Fig2B_auroc_heatmap_v2,data,NC vs Cirrhosis,,,,,,Cirrhosis,n_group_row_label,30,30,
+Fig2B_auroc_heatmap_v2,data,DM vs CDM,,,,,,DM,n_group_row_label,46,46,
+Fig2B_auroc_heatmap_v2,data,DM vs CDM,,,,,,CDM,n_group_row_label,14,14,
+Fig2B_auroc_heatmap_v2,axis_tick,,,,,,,,colourbar_tick,0.3,0.3,
+Fig2B_auroc_heatmap_v2,axis_tick,,,,,,,,colourbar_tick,0.4,0.4,
+Fig2B_auroc_heatmap_v2,axis_tick,,,,,,,,colourbar_tick,0.5,0.5,
+Fig2B_auroc_heatmap_v2,axis_tick,,,,,,,,colourbar_tick,0.6,0.6,
+Fig2B_auroc_heatmap_v2,axis_tick,,,,,,,,colourbar_tick,0.7,0.7,
+Fig2B_auroc_heatmap_v2,axis_tick,,,,,,,,colourbar_tick,0.8,0.8,
+Fig2B_auroc_heatmap_v2,axis_tick,,,,,,,,colourbar_tick,0.9,0.9,
+Fig2B_auroc_heatmap_v2,axis_tick,,,,,,,,colourbar_tick,1.0,1.0,
+Fig2B_auroc_heatmap_v2,label_text,,,,,,,,label_text,,estimator B (its bootstrap 95% CI),
+Fig2B_auroc_heatmap_v2,label_text,,,,,,,,label_text,,95% CI of B includes 0.5 (grey text),
+Fig2B_auroc_heatmap_v2,label_text,,,,,,,,label_text,,L2-LR,
+Fig2B_auroc_heatmap_v2,data,,,,,,,,n_folds_total_key,25,25,

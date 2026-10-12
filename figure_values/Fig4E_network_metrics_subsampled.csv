@@ -1,0 +1,13 @@
+design,unit,metric,group,n_group,n_subsample,n_replicates,p0,p2.5,p25,p50,p75,p97.5,p100,mean,prop_ge_CDM,n_ge_CDM,prop_nonzero,CDM_reference,observed_full_n,CDM_outside_2.5_97.5,row
+subsample_n14,KO_SUM,solid_edges,NC,59,14.0,1000.0,0.0,0.0,0.0,0.0,0.0,2.0,7.0,0.209,0.0,0.0,0.13,23.0,0.0,True,sub-sampling distribution (drawn)
+subsample_n14,KO_SUM,solid_edges,DM,46,14.0,1000.0,0.0,0.0,0.0,0.0,0.0,1.0,4.0,0.037,0.0,0.0,0.031,23.0,0.0,True,sub-sampling distribution (drawn)
+subsample_n14,KO_SUM,solid_edges,Cirrhosis,30,14.0,1000.0,0.0,0.0,0.0,0.0,0.0,3.0,10.0,0.198,0.0,0.0,0.09,23.0,0.0,True,sub-sampling distribution (drawn)
+subsample_n14,KO_SUM,pairs_absrho_gt_0.6,NC,59,14.0,1000.0,0.0,0.0,2.0,4.0,6.0,12.0,18.0,4.739,0.0,0.0,0.966,34.0,0.0,True,sub-sampling distribution (drawn)
+subsample_n14,KO_SUM,pairs_absrho_gt_0.6,DM,46,14.0,1000.0,0.0,0.0,1.0,2.0,4.0,8.0,14.0,2.797,0.0,0.0,0.891,34.0,0.0,True,sub-sampling distribution (drawn)
+subsample_n14,KO_SUM,pairs_absrho_gt_0.6,Cirrhosis,30,14.0,1000.0,0.0,0.0,2.0,4.0,8.0,17.024999999999977,29.0,5.539,0.0,0.0,0.951,34.0,0.0,True,sub-sampling distribution (drawn)
+subsample_n14,KO_SUM,mean_absrho,NC,59,14.0,1000.0,0.16205942894839126,0.19408797052808427,0.21896606762178955,0.23238562021729048,0.24853978419252426,0.2856223444168688,0.32097956069292755,0.2343480304269026,0.0,0.0,1.0,0.34360838164892243,0.12934368783131675,True,sub-sampling distribution (drawn)
+subsample_n14,KO_SUM,mean_absrho,DM,46,14.0,1000.0,0.1618714912782528,0.17751998014909323,0.19871735304012433,0.21081922553081717,0.2248448185849194,0.2583815209962543,0.29689305419955575,0.21253213051923597,0.0,0.0,1.0,0.34360838164892243,0.10390593342541173,True,sub-sampling distribution (drawn)
+subsample_n14,KO_SUM,mean_absrho,Cirrhosis,30,14.0,1000.0,0.16572021315735297,0.19130129437203666,0.21721907443287114,0.23912784473354798,0.26409414770200645,0.3105791222436958,0.35296084021414287,0.24234370929623567,0.002,2.0,1.0,0.34360838164892243,0.18519442331941252,True,sub-sampling distribution (drawn)
+,KO_SUM,solid_edges,CDM,14,,,,,,,,,,,,,,23.0,23.0,,CDM observed (drawn)
+,KO_SUM,pairs_absrho_gt_0.6,CDM,14,,,,,,,,,,,,,,34.0,34.0,,CDM observed (drawn)
+,KO_SUM,mean_absrho,CDM,14,,,,,,,,,,,,,,0.34360838164892243,0.34360838164892243,,CDM observed (drawn)

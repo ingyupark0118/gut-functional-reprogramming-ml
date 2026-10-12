@@ -1,0 +1,1 @@
+conda environment nested_cv: Python 3.10.20 (used for the nested cross-validation and network scripts)

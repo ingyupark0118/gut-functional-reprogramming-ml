@@ -1,0 +1,5 @@
+panel,analysis,group,network_id,draw,n_samples,n_species_analysed,nodes,isolated_species_not_drawn,edges,edges_positive,edges_negative,edges_between_phyla,edges_within_phylum,modularity,cross_phylum_frac,density,mean_degree,n_components,max_degree,nodes_Firmicutes,nodes_Bacteroidota,nodes_Proteobacteria,nodes_Actinobacteria,nodes_Fusobacteria,nodes_Verrucomicrobia,nodes_Other_phyla
+FigS2_sparcc_networks_fullgroup,filtered,NC,prev3W__NC__full,-1,59,530,320,210,498,468,30,93,405,0.7779834196222648,0.18674698795180722,0.00975705329153605,3.1125,40,19,251,33,18,10,3,1,4
+FigS2_sparcc_networks_fullgroup,filtered,DM,prev3W__DM__full,-1,46,458,378,80,992,951,41,209,783,0.7080149258584806,0.21068548387096775,0.013922220818772544,5.248677248677248,14,26,295,45,23,10,1,0,4
+FigS2_sparcc_networks_fullgroup,filtered,Cirrhosis,prev3W__Cirrhosis__full,-1,30,178,161,17,391,350,41,133,258,0.6530209770998359,0.340153452685422,0.030357142857142857,4.857142857142857,5,17,109,28,13,9,1,1,0
+FigS2_sparcc_networks_fullgroup,filtered,CDM,prev3W__CDM__full,-1,14,93,93,0,366,231,135,158,208,0.46733628952790474,0.43169398907103823,0.08555399719495091,7.870967741935484,1,16,60,15,7,7,2,1,1

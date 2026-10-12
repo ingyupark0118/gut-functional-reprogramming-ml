@@ -1,0 +1,158 @@
+panel,kind,comparison,input,model,seed,fold,feature,cohort,quantity,value,printed,mark
+FigS_ML_v3_heatmap,data,NC vs DM,Species,XGBoost,,,,,estA_auc,0.6712020202020202,0.67,cell colour + bold number
+FigS_ML_v3_heatmap,data,NC vs DM,Species,XGBoost,,,,,estB_auc,0.6794399410464259,0.68,
+FigS_ML_v3_heatmap,data,NC vs DM,Species,XGBoost,,,,,estB_ci_lo,0.575766166048091,0.58,
+FigS_ML_v3_heatmap,data,NC vs DM,Species,XGBoost,,,,,estB_ci_hi,0.7755066076400956,0.78,
+FigS_ML_v3_heatmap,data,NC vs DM,Species,XGBoost,,,,,estB_ci_includes_0.5,0,,none
+FigS_ML_v3_heatmap,data,NC vs DM,Species,L2-LR,,,,,estA_auc,0.6932289562289562,0.69,cell colour + bold number
+FigS_ML_v3_heatmap,data,NC vs DM,Species,L2-LR,,,,,estB_auc,0.6912306558585115,0.69,
+FigS_ML_v3_heatmap,data,NC vs DM,Species,L2-LR,,,,,estB_ci_lo,0.5877671783625731,0.59,
+FigS_ML_v3_heatmap,data,NC vs DM,Species,L2-LR,,,,,estB_ci_hi,0.7899145416498659,0.79,
+FigS_ML_v3_heatmap,data,NC vs DM,Species,L2-LR,,,,,estB_ci_includes_0.5,0,,none
+FigS_ML_v3_heatmap,data,NC vs DM,KO,XGBoost,,,,,estA_auc,0.5738451178451178,0.57,cell colour + bold number
+FigS_ML_v3_heatmap,data,NC vs DM,KO,XGBoost,,,,,estB_auc,0.5913780397936625,0.59,
+FigS_ML_v3_heatmap,data,NC vs DM,KO,XGBoost,,,,,estB_ci_lo,0.479296252291567,0.48,
+FigS_ML_v3_heatmap,data,NC vs DM,KO,XGBoost,,,,,estB_ci_hi,0.702836937936827,0.70,
+FigS_ML_v3_heatmap,data,NC vs DM,KO,XGBoost,,,,,estB_ci_includes_0.5,1,,grey text + hatch
+FigS_ML_v3_heatmap,data,NC vs DM,KO,L2-LR,,,,,estA_auc,0.6290639730639731,0.63,cell colour + bold number
+FigS_ML_v3_heatmap,data,NC vs DM,KO,L2-LR,,,,,estB_auc,0.658069270449521,0.66,
+FigS_ML_v3_heatmap,data,NC vs DM,KO,L2-LR,,,,,estB_ci_lo,0.5536185135022823,0.55,
+FigS_ML_v3_heatmap,data,NC vs DM,KO,L2-LR,,,,,estB_ci_hi,0.7633901626770089,0.76,
+FigS_ML_v3_heatmap,data,NC vs DM,KO,L2-LR,,,,,estB_ci_includes_0.5,0,,none
+FigS_ML_v3_heatmap,data,NC vs DM,Combined,XGBoost,,,,,estA_auc,0.5957878787878788,0.60,cell colour + bold number
+FigS_ML_v3_heatmap,data,NC vs DM,Combined,XGBoost,,,,,estB_auc,0.6226971260132645,0.62,
+FigS_ML_v3_heatmap,data,NC vs DM,Combined,XGBoost,,,,,estB_ci_lo,0.5112537916876152,0.51,
+FigS_ML_v3_heatmap,data,NC vs DM,Combined,XGBoost,,,,,estB_ci_hi,0.7365183945656661,0.74,
+FigS_ML_v3_heatmap,data,NC vs DM,Combined,XGBoost,,,,,estB_ci_includes_0.5,0,,none
+FigS_ML_v3_heatmap,data,NC vs DM,Combined,XGBoost,,,,,n_folds_used,24,24,dagger
+FigS_ML_v3_heatmap,data,NC vs DM,Combined,XGBoost,,,,,n_folds_total,25,25,
+FigS_ML_v3_heatmap,data,NC vs DM,Combined,L2-LR,,,,,estA_auc,0.6348181818181817,0.63,cell colour + bold number
+FigS_ML_v3_heatmap,data,NC vs DM,Combined,L2-LR,,,,,estB_auc,0.6875460574797346,0.69,
+FigS_ML_v3_heatmap,data,NC vs DM,Combined,L2-LR,,,,,estB_ci_lo,0.5787958729794858,0.58,
+FigS_ML_v3_heatmap,data,NC vs DM,Combined,L2-LR,,,,,estB_ci_hi,0.7874069231693837,0.79,
+FigS_ML_v3_heatmap,data,NC vs DM,Combined,L2-LR,,,,,estB_ci_includes_0.5,0,,none
+FigS_ML_v3_heatmap,data,NC vs DM,Combined,L2-LR,,,,,n_folds_used,24,24,dagger
+FigS_ML_v3_heatmap,data,NC vs DM,Combined,L2-LR,,,,,n_folds_total,25,25,
+FigS_ML_v3_heatmap,data,Cirrhosis vs CDM,Species,XGBoost,,,,,estA_auc,0.4024537037037037,0.40,cell colour + bold number
+FigS_ML_v3_heatmap,data,Cirrhosis vs CDM,Species,XGBoost,,,,,estB_auc,0.4785714285714285,0.48,
+FigS_ML_v3_heatmap,data,Cirrhosis vs CDM,Species,XGBoost,,,,,estB_ci_lo,0.266637717121588,0.27,
+FigS_ML_v3_heatmap,data,Cirrhosis vs CDM,Species,XGBoost,,,,,estB_ci_hi,0.688459460919354,0.69,
+FigS_ML_v3_heatmap,data,Cirrhosis vs CDM,Species,XGBoost,,,,,estB_ci_includes_0.5,1,,grey text + hatch
+FigS_ML_v3_heatmap,data,Cirrhosis vs CDM,Species,XGBoost,,,,,n_folds_used,20,20,dagger
+FigS_ML_v3_heatmap,data,Cirrhosis vs CDM,Species,XGBoost,,,,,n_folds_total,25,25,
+FigS_ML_v3_heatmap,data,Cirrhosis vs CDM,Species,L2-LR,,,,,estA_auc,0.4323148148148149,0.43,cell colour + bold number
+FigS_ML_v3_heatmap,data,Cirrhosis vs CDM,Species,L2-LR,,,,,estB_auc,0.5380952380952381,0.54,
+FigS_ML_v3_heatmap,data,Cirrhosis vs CDM,Species,L2-LR,,,,,estB_ci_lo,0.352654710591133,0.35,
+FigS_ML_v3_heatmap,data,Cirrhosis vs CDM,Species,L2-LR,,,,,estB_ci_hi,0.7118117559523809,0.71,
+FigS_ML_v3_heatmap,data,Cirrhosis vs CDM,Species,L2-LR,,,,,estB_ci_includes_0.5,1,,grey text + hatch
+FigS_ML_v3_heatmap,data,Cirrhosis vs CDM,Species,L2-LR,,,,,n_folds_used,20,20,dagger
+FigS_ML_v3_heatmap,data,Cirrhosis vs CDM,Species,L2-LR,,,,,n_folds_total,25,25,
+FigS_ML_v3_heatmap,data,Cirrhosis vs CDM,KO,XGBoost,,,,,estA_auc,0.4184259259259258,0.42,cell colour + bold number
+FigS_ML_v3_heatmap,data,Cirrhosis vs CDM,KO,XGBoost,,,,,estB_auc,0.3976190476190476,0.40,
+FigS_ML_v3_heatmap,data,Cirrhosis vs CDM,KO,XGBoost,,,,,estB_ci_lo,0.2213350183823529,0.22,
+FigS_ML_v3_heatmap,data,Cirrhosis vs CDM,KO,XGBoost,,,,,estB_ci_hi,0.590576566555432,0.59,
+FigS_ML_v3_heatmap,data,Cirrhosis vs CDM,KO,XGBoost,,,,,estB_ci_includes_0.5,1,,grey text + hatch
+FigS_ML_v3_heatmap,data,Cirrhosis vs CDM,KO,XGBoost,,,,,n_folds_used,17,17,dagger
+FigS_ML_v3_heatmap,data,Cirrhosis vs CDM,KO,XGBoost,,,,,n_folds_total,25,25,
+FigS_ML_v3_heatmap,data,Cirrhosis vs CDM,KO,L2-LR,,,,,estA_auc,0.4012962962962962,0.40,cell colour + bold number
+FigS_ML_v3_heatmap,data,Cirrhosis vs CDM,KO,L2-LR,,,,,estB_auc,0.4595238095238094,0.46,
+FigS_ML_v3_heatmap,data,Cirrhosis vs CDM,KO,L2-LR,,,,,estB_ci_lo,0.2753866223908918,0.28,
+FigS_ML_v3_heatmap,data,Cirrhosis vs CDM,KO,L2-LR,,,,,estB_ci_hi,0.6418978748524202,0.64,
+FigS_ML_v3_heatmap,data,Cirrhosis vs CDM,KO,L2-LR,,,,,estB_ci_includes_0.5,1,,grey text + hatch
+FigS_ML_v3_heatmap,data,Cirrhosis vs CDM,KO,L2-LR,,,,,n_folds_used,17,17,dagger
+FigS_ML_v3_heatmap,data,Cirrhosis vs CDM,KO,L2-LR,,,,,n_folds_total,25,25,
+FigS_ML_v3_heatmap,data,Cirrhosis vs CDM,Combined,XGBoost,,,,,estA_auc,0.4097222222222221,0.41,cell colour + bold number
+FigS_ML_v3_heatmap,data,Cirrhosis vs CDM,Combined,XGBoost,,,,,estB_auc,0.4071428571428571,0.41,
+FigS_ML_v3_heatmap,data,Cirrhosis vs CDM,Combined,XGBoost,,,,,estB_ci_lo,0.2328879310344827,0.23,
+FigS_ML_v3_heatmap,data,Cirrhosis vs CDM,Combined,XGBoost,,,,,estB_ci_hi,0.609583333333333,0.61,
+FigS_ML_v3_heatmap,data,Cirrhosis vs CDM,Combined,XGBoost,,,,,estB_ci_includes_0.5,1,,grey text + hatch
+FigS_ML_v3_heatmap,data,Cirrhosis vs CDM,Combined,XGBoost,,,,,n_folds_used,16,16,dagger
+FigS_ML_v3_heatmap,data,Cirrhosis vs CDM,Combined,XGBoost,,,,,n_folds_total,25,25,
+FigS_ML_v3_heatmap,data,Cirrhosis vs CDM,Combined,L2-LR,,,,,estA_auc,0.4305555555555555,0.43,cell colour + bold number
+FigS_ML_v3_heatmap,data,Cirrhosis vs CDM,Combined,L2-LR,,,,,estB_auc,0.4642857142857143,0.46,
+FigS_ML_v3_heatmap,data,Cirrhosis vs CDM,Combined,L2-LR,,,,,estB_ci_lo,0.2864817001180638,0.29,
+FigS_ML_v3_heatmap,data,Cirrhosis vs CDM,Combined,L2-LR,,,,,estB_ci_hi,0.6521823065301325,0.65,
+FigS_ML_v3_heatmap,data,Cirrhosis vs CDM,Combined,L2-LR,,,,,estB_ci_includes_0.5,1,,grey text + hatch
+FigS_ML_v3_heatmap,data,Cirrhosis vs CDM,Combined,L2-LR,,,,,n_folds_used,16,16,dagger
+FigS_ML_v3_heatmap,data,Cirrhosis vs CDM,Combined,L2-LR,,,,,n_folds_total,25,25,
+FigS_ML_v3_heatmap,data,NC vs Cirrhosis,Species,XGBoost,,,,,estA_auc,0.8778787878787879,0.88,cell colour + bold number
+FigS_ML_v3_heatmap,data,NC vs Cirrhosis,Species,XGBoost,,,,,estB_auc,0.8790960451977401,0.88,
+FigS_ML_v3_heatmap,data,NC vs Cirrhosis,Species,XGBoost,,,,,estB_ci_lo,0.8003571428571428,0.80,
+FigS_ML_v3_heatmap,data,NC vs Cirrhosis,Species,XGBoost,,,,,estB_ci_hi,0.9420048701298702,0.94,
+FigS_ML_v3_heatmap,data,NC vs Cirrhosis,Species,XGBoost,,,,,estB_ci_includes_0.5,0,,none
+FigS_ML_v3_heatmap,data,NC vs Cirrhosis,Species,L2-LR,,,,,estA_auc,0.8264141414141415,0.83,cell colour + bold number
+FigS_ML_v3_heatmap,data,NC vs Cirrhosis,Species,L2-LR,,,,,estB_auc,0.8197740112994352,0.82,
+FigS_ML_v3_heatmap,data,NC vs Cirrhosis,Species,L2-LR,,,,,estB_ci_lo,0.7231222587719298,0.72,
+FigS_ML_v3_heatmap,data,NC vs Cirrhosis,Species,L2-LR,,,,,estB_ci_hi,0.9011332075202962,0.90,
+FigS_ML_v3_heatmap,data,NC vs Cirrhosis,Species,L2-LR,,,,,estB_ci_includes_0.5,0,,none
+FigS_ML_v3_heatmap,data,NC vs Cirrhosis,KO,XGBoost,,,,,estA_auc,0.7983585858585859,0.80,cell colour + bold number
+FigS_ML_v3_heatmap,data,NC vs Cirrhosis,KO,XGBoost,,,,,estB_auc,0.8209039548022599,0.82,
+FigS_ML_v3_heatmap,data,NC vs Cirrhosis,KO,XGBoost,,,,,estB_ci_lo,0.7275862068965517,0.73,
+FigS_ML_v3_heatmap,data,NC vs Cirrhosis,KO,XGBoost,,,,,estB_ci_hi,0.9011103607182585,0.90,
+FigS_ML_v3_heatmap,data,NC vs Cirrhosis,KO,XGBoost,,,,,estB_ci_includes_0.5,0,,none
+FigS_ML_v3_heatmap,data,NC vs Cirrhosis,KO,L2-LR,,,,,estA_auc,0.8245959595959595,0.82,cell colour + bold number
+FigS_ML_v3_heatmap,data,NC vs Cirrhosis,KO,L2-LR,,,,,estB_auc,0.831638418079096,0.83,
+FigS_ML_v3_heatmap,data,NC vs Cirrhosis,KO,L2-LR,,,,,estB_ci_lo,0.7374328607944035,0.74,
+FigS_ML_v3_heatmap,data,NC vs Cirrhosis,KO,L2-LR,,,,,estB_ci_hi,0.9099045845286186,0.91,
+FigS_ML_v3_heatmap,data,NC vs Cirrhosis,KO,L2-LR,,,,,estB_ci_includes_0.5,0,,none
+FigS_ML_v3_heatmap,data,NC vs Cirrhosis,Combined,XGBoost,,,,,estA_auc,0.8419191919191918,0.84,cell colour + bold number
+FigS_ML_v3_heatmap,data,NC vs Cirrhosis,Combined,XGBoost,,,,,estB_auc,0.8491525423728813,0.85,
+FigS_ML_v3_heatmap,data,NC vs Cirrhosis,Combined,XGBoost,,,,,estB_ci_lo,0.7666598360655738,0.77,
+FigS_ML_v3_heatmap,data,NC vs Cirrhosis,Combined,XGBoost,,,,,estB_ci_hi,0.9192217865527584,0.92,
+FigS_ML_v3_heatmap,data,NC vs Cirrhosis,Combined,XGBoost,,,,,estB_ci_includes_0.5,0,,none
+FigS_ML_v3_heatmap,data,NC vs Cirrhosis,Combined,L2-LR,,,,,estA_auc,0.8563636363636362,0.86,cell colour + bold number
+FigS_ML_v3_heatmap,data,NC vs Cirrhosis,Combined,L2-LR,,,,,estB_auc,0.844632768361582,0.84,
+FigS_ML_v3_heatmap,data,NC vs Cirrhosis,Combined,L2-LR,,,,,estB_ci_lo,0.75,0.75,
+FigS_ML_v3_heatmap,data,NC vs Cirrhosis,Combined,L2-LR,,,,,estB_ci_hi,0.9259904067058672,0.93,
+FigS_ML_v3_heatmap,data,NC vs Cirrhosis,Combined,L2-LR,,,,,estB_ci_includes_0.5,0,,none
+FigS_ML_v3_heatmap,data,DM vs CDM,Species,XGBoost,,,,,estA_auc,0.7835185185185184,0.78,cell colour + bold number
+FigS_ML_v3_heatmap,data,DM vs CDM,Species,XGBoost,,,,,estB_auc,0.7779503105590062,0.78,
+FigS_ML_v3_heatmap,data,DM vs CDM,Species,XGBoost,,,,,estB_ci_lo,0.6079190340909091,0.61,
+FigS_ML_v3_heatmap,data,DM vs CDM,Species,XGBoost,,,,,estB_ci_hi,0.9177185004436555,0.92,
+FigS_ML_v3_heatmap,data,DM vs CDM,Species,XGBoost,,,,,estB_ci_includes_0.5,0,,none
+FigS_ML_v3_heatmap,data,DM vs CDM,Species,L2-LR,,,,,estA_auc,0.7317777777777777,0.73,cell colour + bold number
+FigS_ML_v3_heatmap,data,DM vs CDM,Species,L2-LR,,,,,estB_auc,0.717391304347826,0.72,
+FigS_ML_v3_heatmap,data,DM vs CDM,Species,L2-LR,,,,,estB_ci_lo,0.5416020889487871,0.54,
+FigS_ML_v3_heatmap,data,DM vs CDM,Species,L2-LR,,,,,estB_ci_hi,0.8664756965588167,0.87,
+FigS_ML_v3_heatmap,data,DM vs CDM,Species,L2-LR,,,,,estB_ci_includes_0.5,0,,none
+FigS_ML_v3_heatmap,data,DM vs CDM,KO,XGBoost,,,,,estA_auc,0.8985185185185184,0.90,cell colour + bold number
+FigS_ML_v3_heatmap,data,DM vs CDM,KO,XGBoost,,,,,estB_auc,0.8975155279503105,0.90,
+FigS_ML_v3_heatmap,data,DM vs CDM,KO,XGBoost,,,,,estB_ci_lo,0.7921120601472995,0.79,
+FigS_ML_v3_heatmap,data,DM vs CDM,KO,XGBoost,,,,,estB_ci_hi,0.9736077578757968,0.97,
+FigS_ML_v3_heatmap,data,DM vs CDM,KO,XGBoost,,,,,estB_ci_includes_0.5,0,,none
+FigS_ML_v3_heatmap,data,DM vs CDM,KO,L2-LR,,,,,estA_auc,0.8182222222222222,0.82,cell colour + bold number
+FigS_ML_v3_heatmap,data,DM vs CDM,KO,L2-LR,,,,,estB_auc,0.7298136645962733,0.73,
+FigS_ML_v3_heatmap,data,DM vs CDM,KO,L2-LR,,,,,estB_ci_lo,0.5197484420124638,0.52,
+FigS_ML_v3_heatmap,data,DM vs CDM,KO,L2-LR,,,,,estB_ci_hi,0.9083597356130336,0.91,
+FigS_ML_v3_heatmap,data,DM vs CDM,KO,L2-LR,,,,,estB_ci_includes_0.5,0,,none
+FigS_ML_v3_heatmap,data,DM vs CDM,Combined,XGBoost,,,,,estA_auc,0.8778518518518519,0.88,cell colour + bold number
+FigS_ML_v3_heatmap,data,DM vs CDM,Combined,XGBoost,,,,,estB_auc,0.8695652173913044,0.87,
+FigS_ML_v3_heatmap,data,DM vs CDM,Combined,XGBoost,,,,,estB_ci_lo,0.7559690542883821,0.76,
+FigS_ML_v3_heatmap,data,DM vs CDM,Combined,XGBoost,,,,,estB_ci_hi,0.9511111111111112,0.95,
+FigS_ML_v3_heatmap,data,DM vs CDM,Combined,XGBoost,,,,,estB_ci_includes_0.5,0,,none
+FigS_ML_v3_heatmap,data,DM vs CDM,Combined,L2-LR,,,,,estA_auc,0.8023703703703703,0.80,cell colour + bold number
+FigS_ML_v3_heatmap,data,DM vs CDM,Combined,L2-LR,,,,,estB_auc,0.7701863354037267,0.77,
+FigS_ML_v3_heatmap,data,DM vs CDM,Combined,L2-LR,,,,,estB_ci_lo,0.5795039227812337,0.58,
+FigS_ML_v3_heatmap,data,DM vs CDM,Combined,L2-LR,,,,,estB_ci_hi,0.9261287852878994,0.93,
+FigS_ML_v3_heatmap,data,DM vs CDM,Combined,L2-LR,,,,,estB_ci_includes_0.5,0,,none
+FigS_ML_v3_heatmap,data,NC vs DM,,,,,,NC,n_group_row_label,59,59,
+FigS_ML_v3_heatmap,data,NC vs DM,,,,,,DM,n_group_row_label,46,46,
+FigS_ML_v3_heatmap,data,Cirrhosis vs CDM,,,,,,Cirrhosis,n_group_row_label,30,30,
+FigS_ML_v3_heatmap,data,Cirrhosis vs CDM,,,,,,CDM,n_group_row_label,14,14,
+FigS_ML_v3_heatmap,data,NC vs Cirrhosis,,,,,,NC,n_group_row_label,59,59,
+FigS_ML_v3_heatmap,data,NC vs Cirrhosis,,,,,,Cirrhosis,n_group_row_label,30,30,
+FigS_ML_v3_heatmap,data,DM vs CDM,,,,,,DM,n_group_row_label,46,46,
+FigS_ML_v3_heatmap,data,DM vs CDM,,,,,,CDM,n_group_row_label,14,14,
+FigS_ML_v3_heatmap,axis_tick,,,,,,,,colourbar_tick,0.3,0.3,
+FigS_ML_v3_heatmap,axis_tick,,,,,,,,colourbar_tick,0.4,0.4,
+FigS_ML_v3_heatmap,axis_tick,,,,,,,,colourbar_tick,0.5,0.5,
+FigS_ML_v3_heatmap,axis_tick,,,,,,,,colourbar_tick,0.6,0.6,
+FigS_ML_v3_heatmap,axis_tick,,,,,,,,colourbar_tick,0.7,0.7,
+FigS_ML_v3_heatmap,axis_tick,,,,,,,,colourbar_tick,0.8,0.8,
+FigS_ML_v3_heatmap,axis_tick,,,,,,,,colourbar_tick,0.9,0.9,
+FigS_ML_v3_heatmap,axis_tick,,,,,,,,colourbar_tick,1.0,1.0,
+FigS_ML_v3_heatmap,label_text,,,,,,,,label_text,,estimator B (its bootstrap 95% CI),
+FigS_ML_v3_heatmap,label_text,,,,,,,,label_text,,95% CI of B includes 0.5 (grey text),
+FigS_ML_v3_heatmap,label_text,,,,,,,,label_text,,L2-LR,
+FigS_ML_v3_heatmap,data,,,,,,,,n_folds_total_key,25,25,
+FigS_ML_v3_heatmap,label_text,,,,,,,,label_text,,"Batch-corrected (ConQuR; age, sex, BMI) sensitivity analysis.",

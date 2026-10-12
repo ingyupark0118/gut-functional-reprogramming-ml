@@ -1,0 +1,101 @@
+group,name,label,type,layer,x_mm,y_mm,n_solid,n_dashed,connected,n_detected,n_group
+NC,L_crispatus,L. crispatus,species,1,20.0,21.0,0,4,True,3,59
+NC,V_parvula,V. parvula,species,1,20.0,43.0,0,7,True,30,59
+NC,K00075_murB,murB (K00075),KO,2,45.0,4.0,0,2,True,,59
+NC,K01512_acyP,acyP (K01512),KO,2,45.0,11.2,0,1,True,,59
+NC,K04042_glmU,glmU (K04042),KO,2,45.0,18.4,0,3,True,,59
+NC,K03060_rpoZ,rpoZ (K03060),KO,2,45.0,25.6,0,1,True,,59
+NC,K03799_htpX,htpX (K03799),KO,2,45.0,32.8,0,0,False,,59
+NC,K03116_tatA,tatA (K03116),KO,2,45.0,40.0,0,2,True,,59
+NC,K10716_kch,kch (K10716),KO,2,45.0,47.2,0,0,False,,59
+NC,K03687_grpE,grpE (K03687),KO,2,45.0,54.4,0,0,False,,59
+NC,K03101_lspA,lspA (K03101),KO,2,45.0,61.6,0,2,True,,59
+NC,INR,INR,clinical,3,69.0,1.5,0,1,True,,59
+NC,PT,PT,clinical,3,69.0,6.2,0,0,False,,59
+NC,MDF,MDF,clinical,3,69.0,10.9,0,0,False,,59
+NC,MELD,MELD,clinical,3,69.0,15.600000000000001,0,0,False,,59
+NC,BIL,Bilirubin,clinical,3,69.0,20.3,0,2,True,,59
+NC,AST,AST,clinical,3,69.0,25.0,0,0,False,,59
+NC,ALT,ALT,clinical,3,69.0,29.700000000000003,0,0,False,,59
+NC,GGT,GGT,clinical,3,69.0,34.4,0,1,True,,59
+NC,APRI,APRI,clinical,3,69.0,39.1,0,0,False,,59
+NC,PLATELET,Platelets,clinical,3,69.0,43.800000000000004,0,0,False,,59
+NC,Creatine,Creatinine,clinical,3,69.0,48.5,0,2,True,,59
+NC,Cholesterol,Cholesterol,clinical,3,69.0,53.2,0,1,True,,59
+NC,BMI,BMI,clinical,3,69.0,57.900000000000006,0,0,False,,59
+NC,Alcohol,Alcohol,clinical,3,69.0,62.6,0,1,True,,59
+DM,L_crispatus,L. crispatus,species,1,20.0,21.0,0,0,False,1,46
+DM,V_parvula,V. parvula,species,1,20.0,43.0,0,3,True,14,46
+DM,K00075_murB,murB (K00075),KO,2,45.0,4.0,0,1,True,,46
+DM,K01512_acyP,acyP (K01512),KO,2,45.0,11.2,0,2,True,,46
+DM,K04042_glmU,glmU (K04042),KO,2,45.0,18.4,0,1,True,,46
+DM,K03060_rpoZ,rpoZ (K03060),KO,2,45.0,25.6,0,0,False,,46
+DM,K03799_htpX,htpX (K03799),KO,2,45.0,32.8,0,0,False,,46
+DM,K03116_tatA,tatA (K03116),KO,2,45.0,40.0,0,1,True,,46
+DM,K10716_kch,kch (K10716),KO,2,45.0,47.2,0,0,False,,46
+DM,K03687_grpE,grpE (K03687),KO,2,45.0,54.4,0,0,False,,46
+DM,K03101_lspA,lspA (K03101),KO,2,45.0,61.6,0,0,False,,46
+DM,INR,INR,clinical,3,69.0,1.5,0,0,False,,46
+DM,PT,PT,clinical,3,69.0,6.2,0,0,False,,46
+DM,MDF,MDF,clinical,3,69.0,10.9,0,0,False,,46
+DM,MELD,MELD,clinical,3,69.0,15.600000000000001,0,0,False,,46
+DM,BIL,Bilirubin,clinical,3,69.0,20.3,0,0,False,,46
+DM,AST,AST,clinical,3,69.0,25.0,0,0,False,,46
+DM,ALT,ALT,clinical,3,69.0,29.700000000000003,0,0,False,,46
+DM,GGT,GGT,clinical,3,69.0,34.4,0,0,False,,46
+DM,APRI,APRI,clinical,3,69.0,39.1,0,1,True,,46
+DM,PLATELET,Platelets,clinical,3,69.0,43.800000000000004,0,1,True,,46
+DM,Creatine,Creatinine,clinical,3,69.0,48.5,0,0,False,,46
+DM,Cholesterol,Cholesterol,clinical,3,69.0,53.2,0,0,False,,46
+DM,BMI,BMI,clinical,3,69.0,57.900000000000006,0,0,False,,46
+DM,Alcohol,Alcohol,clinical,3,69.0,62.6,0,0,False,,46
+Cirrhosis,L_crispatus,L. crispatus,species,1,20.0,21.0,0,1,True,5,30
+Cirrhosis,V_parvula,V. parvula,species,1,20.0,43.0,0,7,True,20,30
+Cirrhosis,K00075_murB,murB (K00075),KO,2,45.0,4.0,0,3,True,,30
+Cirrhosis,K01512_acyP,acyP (K01512),KO,2,45.0,11.2,0,2,True,,30
+Cirrhosis,K04042_glmU,glmU (K04042),KO,2,45.0,18.4,0,2,True,,30
+Cirrhosis,K03060_rpoZ,rpoZ (K03060),KO,2,45.0,25.6,0,0,False,,30
+Cirrhosis,K03799_htpX,htpX (K03799),KO,2,45.0,32.8,0,1,True,,30
+Cirrhosis,K03116_tatA,tatA (K03116),KO,2,45.0,40.0,0,2,True,,30
+Cirrhosis,K10716_kch,kch (K10716),KO,2,45.0,47.2,0,0,False,,30
+Cirrhosis,K03687_grpE,grpE (K03687),KO,2,45.0,54.4,0,0,False,,30
+Cirrhosis,K03101_lspA,lspA (K03101),KO,2,45.0,61.6,0,1,True,,30
+Cirrhosis,INR,INR,clinical,3,69.0,1.5,0,1,True,,30
+Cirrhosis,PT,PT,clinical,3,69.0,6.2,0,1,True,,30
+Cirrhosis,MDF,MDF,clinical,3,69.0,10.9,0,0,False,,30
+Cirrhosis,MELD,MELD,clinical,3,69.0,15.600000000000001,0,5,True,,30
+Cirrhosis,BIL,Bilirubin,clinical,3,69.0,20.3,0,0,False,,30
+Cirrhosis,AST,AST,clinical,3,69.0,25.0,0,0,False,,30
+Cirrhosis,ALT,ALT,clinical,3,69.0,29.700000000000003,0,0,False,,30
+Cirrhosis,GGT,GGT,clinical,3,69.0,34.4,0,0,False,,30
+Cirrhosis,APRI,APRI,clinical,3,69.0,39.1,0,0,False,,30
+Cirrhosis,PLATELET,Platelets,clinical,3,69.0,43.800000000000004,0,0,False,,30
+Cirrhosis,Creatine,Creatinine,clinical,3,69.0,48.5,0,2,True,,30
+Cirrhosis,Cholesterol,Cholesterol,clinical,3,69.0,53.2,0,0,False,,30
+Cirrhosis,BMI,BMI,clinical,3,69.0,57.900000000000006,0,0,False,,30
+Cirrhosis,Alcohol,Alcohol,clinical,3,69.0,62.6,0,0,False,,30
+CDM,L_crispatus,L. crispatus,species,1,20.0,21.0,8,3,True,6,14
+CDM,V_parvula,V. parvula,species,1,20.0,43.0,5,3,True,13,14
+CDM,K00075_murB,murB (K00075),KO,2,45.0,4.0,0,0,False,,14
+CDM,K01512_acyP,acyP (K01512),KO,2,45.0,11.2,4,3,True,,14
+CDM,K04042_glmU,glmU (K04042),KO,2,45.0,18.4,2,3,True,,14
+CDM,K03060_rpoZ,rpoZ (K03060),KO,2,45.0,25.6,0,2,True,,14
+CDM,K03799_htpX,htpX (K03799),KO,2,45.0,32.8,4,2,True,,14
+CDM,K03116_tatA,tatA (K03116),KO,2,45.0,40.0,2,4,True,,14
+CDM,K10716_kch,kch (K10716),KO,2,45.0,47.2,0,1,True,,14
+CDM,K03687_grpE,grpE (K03687),KO,2,45.0,54.4,0,0,False,,14
+CDM,K03101_lspA,lspA (K03101),KO,2,45.0,61.6,5,2,True,,14
+CDM,INR,INR,clinical,3,69.0,1.5,2,3,True,,14
+CDM,PT,PT,clinical,3,69.0,6.2,6,1,True,,14
+CDM,MDF,MDF,clinical,3,69.0,10.9,6,1,True,,14
+CDM,MELD,MELD,clinical,3,69.0,15.600000000000001,0,0,False,,14
+CDM,BIL,Bilirubin,clinical,3,69.0,20.3,1,1,True,,14
+CDM,AST,AST,clinical,3,69.0,25.0,0,0,False,,14
+CDM,ALT,ALT,clinical,3,69.0,29.700000000000003,0,0,False,,14
+CDM,GGT,GGT,clinical,3,69.0,34.4,0,0,False,,14
+CDM,APRI,APRI,clinical,3,69.0,39.1,0,0,False,,14
+CDM,PLATELET,Platelets,clinical,3,69.0,43.800000000000004,0,2,True,,14
+CDM,Creatine,Creatinine,clinical,3,69.0,48.5,1,4,True,,14
+CDM,Cholesterol,Cholesterol,clinical,3,69.0,53.2,0,2,True,,14
+CDM,BMI,BMI,clinical,3,69.0,57.900000000000006,0,0,False,,14
+CDM,Alcohol,Alcohol,clinical,3,69.0,62.6,0,1,True,,14

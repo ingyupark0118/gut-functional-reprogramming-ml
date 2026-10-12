@@ -1,0 +1,95 @@
+panel,kind,comparison,input,model,seed,fold,feature,cohort,quantity,value,printed,mark
+FigS_ML_v2_vs_v3_scatter,data,NC vs DM,Species,XGBoost,,,,,estA_auc_v2,0.5621515151515151,,x (full o)
+FigS_ML_v2_vs_v3_scatter,data,NC vs DM,Species,XGBoost,,,,,estA_auc_v3,0.6712020202020202,,y (full o)
+FigS_ML_v2_vs_v3_scatter,data,NC vs DM,Species,XGBoost,,,,,delta_v3_minus_v2,0.10905050505050518,,
+FigS_ML_v2_vs_v3_scatter,data,NC vs DM,Species,L2-LR,,,,,estA_auc_v2,0.575131313131313,,x (full s)
+FigS_ML_v2_vs_v3_scatter,data,NC vs DM,Species,L2-LR,,,,,estA_auc_v3,0.6932289562289562,,y (full s)
+FigS_ML_v2_vs_v3_scatter,data,NC vs DM,Species,L2-LR,,,,,delta_v3_minus_v2,0.11809764309764315,,
+FigS_ML_v2_vs_v3_scatter,data,NC vs DM,KO,XGBoost,,,,,estA_auc_v2,0.5738451178451178,,x (none o)
+FigS_ML_v2_vs_v3_scatter,data,NC vs DM,KO,XGBoost,,,,,estA_auc_v3,0.5738451178451178,,y (none o)
+FigS_ML_v2_vs_v3_scatter,data,NC vs DM,KO,XGBoost,,,,,delta_v3_minus_v2,0.0,,
+FigS_ML_v2_vs_v3_scatter,data,NC vs DM,KO,L2-LR,,,,,estA_auc_v2,0.6290639730639731,,x (none s)
+FigS_ML_v2_vs_v3_scatter,data,NC vs DM,KO,L2-LR,,,,,estA_auc_v3,0.6290639730639731,,y (none s)
+FigS_ML_v2_vs_v3_scatter,data,NC vs DM,KO,L2-LR,,,,,delta_v3_minus_v2,0.0,,
+FigS_ML_v2_vs_v3_scatter,data,NC vs DM,Combined,XGBoost,,,,,estA_auc_v2,0.6022457912457913,,x (left o)
+FigS_ML_v2_vs_v3_scatter,data,NC vs DM,Combined,XGBoost,,,,,estA_auc_v3,0.5957878787878788,,y (left o)
+FigS_ML_v2_vs_v3_scatter,data,NC vs DM,Combined,XGBoost,,,,,delta_v3_minus_v2,-0.006457912457912496,,
+FigS_ML_v2_vs_v3_scatter,data,NC vs DM,Combined,L2-LR,,,,,estA_auc_v2,0.6256801346801346,,x (left s)
+FigS_ML_v2_vs_v3_scatter,data,NC vs DM,Combined,L2-LR,,,,,estA_auc_v3,0.6348181818181817,,y (left s)
+FigS_ML_v2_vs_v3_scatter,data,NC vs DM,Combined,L2-LR,,,,,delta_v3_minus_v2,0.009138047138047112,,
+FigS_ML_v2_vs_v3_scatter,data,Cirrhosis vs CDM,Species,XGBoost,,,,,estA_auc_v2,0.437037037037037,,x (full o)
+FigS_ML_v2_vs_v3_scatter,data,Cirrhosis vs CDM,Species,XGBoost,,,,,estA_auc_v3,0.4024537037037037,,y (full o)
+FigS_ML_v2_vs_v3_scatter,data,Cirrhosis vs CDM,Species,XGBoost,,,,,delta_v3_minus_v2,-0.0345833333333333,,
+FigS_ML_v2_vs_v3_scatter,data,Cirrhosis vs CDM,Species,L2-LR,,,,,estA_auc_v2,0.5090277777777777,,x (full s)
+FigS_ML_v2_vs_v3_scatter,data,Cirrhosis vs CDM,Species,L2-LR,,,,,estA_auc_v3,0.4323148148148149,,y (full s)
+FigS_ML_v2_vs_v3_scatter,data,Cirrhosis vs CDM,Species,L2-LR,,,,,delta_v3_minus_v2,-0.07671296296296287,,
+FigS_ML_v2_vs_v3_scatter,data,Cirrhosis vs CDM,KO,XGBoost,,,,,estA_auc_v2,0.4184259259259258,,x (none o)
+FigS_ML_v2_vs_v3_scatter,data,Cirrhosis vs CDM,KO,XGBoost,,,,,estA_auc_v3,0.4184259259259258,,y (none o)
+FigS_ML_v2_vs_v3_scatter,data,Cirrhosis vs CDM,KO,XGBoost,,,,,delta_v3_minus_v2,0.0,,
+FigS_ML_v2_vs_v3_scatter,data,Cirrhosis vs CDM,KO,L2-LR,,,,,estA_auc_v2,0.4012962962962962,,x (none s)
+FigS_ML_v2_vs_v3_scatter,data,Cirrhosis vs CDM,KO,L2-LR,,,,,estA_auc_v3,0.4012962962962962,,y (none s)
+FigS_ML_v2_vs_v3_scatter,data,Cirrhosis vs CDM,KO,L2-LR,,,,,delta_v3_minus_v2,0.0,,
+FigS_ML_v2_vs_v3_scatter,data,Cirrhosis vs CDM,Combined,XGBoost,,,,,estA_auc_v2,0.4212962962962963,,x (left o)
+FigS_ML_v2_vs_v3_scatter,data,Cirrhosis vs CDM,Combined,XGBoost,,,,,estA_auc_v3,0.4097222222222221,,y (left o)
+FigS_ML_v2_vs_v3_scatter,data,Cirrhosis vs CDM,Combined,XGBoost,,,,,delta_v3_minus_v2,-0.011574074074074181,,
+FigS_ML_v2_vs_v3_scatter,data,Cirrhosis vs CDM,Combined,L2-LR,,,,,estA_auc_v2,0.35,,x (left s)
+FigS_ML_v2_vs_v3_scatter,data,Cirrhosis vs CDM,Combined,L2-LR,,,,,estA_auc_v3,0.4305555555555555,,y (left s)
+FigS_ML_v2_vs_v3_scatter,data,Cirrhosis vs CDM,Combined,L2-LR,,,,,delta_v3_minus_v2,0.08055555555555555,,
+FigS_ML_v2_vs_v3_scatter,data,NC vs Cirrhosis,Species,XGBoost,,,,,estA_auc_v2,0.8761363636363637,,x (full o)
+FigS_ML_v2_vs_v3_scatter,data,NC vs Cirrhosis,Species,XGBoost,,,,,estA_auc_v3,0.8778787878787879,,y (full o)
+FigS_ML_v2_vs_v3_scatter,data,NC vs Cirrhosis,Species,XGBoost,,,,,delta_v3_minus_v2,0.001742424242424212,,
+FigS_ML_v2_vs_v3_scatter,data,NC vs Cirrhosis,Species,L2-LR,,,,,estA_auc_v2,0.9137373737373736,,x (full s)
+FigS_ML_v2_vs_v3_scatter,data,NC vs Cirrhosis,Species,L2-LR,,,,,estA_auc_v3,0.8264141414141415,,y (full s)
+FigS_ML_v2_vs_v3_scatter,data,NC vs Cirrhosis,Species,L2-LR,,,,,delta_v3_minus_v2,-0.08732323232323214,,
+FigS_ML_v2_vs_v3_scatter,data,NC vs Cirrhosis,KO,XGBoost,,,,,estA_auc_v2,0.7983585858585859,,x (none o)
+FigS_ML_v2_vs_v3_scatter,data,NC vs Cirrhosis,KO,XGBoost,,,,,estA_auc_v3,0.7983585858585859,,y (none o)
+FigS_ML_v2_vs_v3_scatter,data,NC vs Cirrhosis,KO,XGBoost,,,,,delta_v3_minus_v2,0.0,,
+FigS_ML_v2_vs_v3_scatter,data,NC vs Cirrhosis,KO,L2-LR,,,,,estA_auc_v2,0.8245959595959595,,x (none s)
+FigS_ML_v2_vs_v3_scatter,data,NC vs Cirrhosis,KO,L2-LR,,,,,estA_auc_v3,0.8245959595959595,,y (none s)
+FigS_ML_v2_vs_v3_scatter,data,NC vs Cirrhosis,KO,L2-LR,,,,,delta_v3_minus_v2,0.0,,
+FigS_ML_v2_vs_v3_scatter,data,NC vs Cirrhosis,Combined,XGBoost,,,,,estA_auc_v2,0.8259090909090909,,x (left o)
+FigS_ML_v2_vs_v3_scatter,data,NC vs Cirrhosis,Combined,XGBoost,,,,,estA_auc_v3,0.8419191919191918,,y (left o)
+FigS_ML_v2_vs_v3_scatter,data,NC vs Cirrhosis,Combined,XGBoost,,,,,delta_v3_minus_v2,0.01601010101010092,,
+FigS_ML_v2_vs_v3_scatter,data,NC vs Cirrhosis,Combined,L2-LR,,,,,estA_auc_v2,0.844040404040404,,x (left s)
+FigS_ML_v2_vs_v3_scatter,data,NC vs Cirrhosis,Combined,L2-LR,,,,,estA_auc_v3,0.8563636363636362,,y (left s)
+FigS_ML_v2_vs_v3_scatter,data,NC vs Cirrhosis,Combined,L2-LR,,,,,delta_v3_minus_v2,0.01232323232323218,,
+FigS_ML_v2_vs_v3_scatter,data,DM vs CDM,Species,XGBoost,,,,,estA_auc_v2,0.8516666666666668,,x (full o)
+FigS_ML_v2_vs_v3_scatter,data,DM vs CDM,Species,XGBoost,,,,,estA_auc_v3,0.7835185185185184,,y (full o)
+FigS_ML_v2_vs_v3_scatter,data,DM vs CDM,Species,XGBoost,,,,,delta_v3_minus_v2,-0.0681481481481484,,
+FigS_ML_v2_vs_v3_scatter,data,DM vs CDM,Species,L2-LR,,,,,estA_auc_v2,0.8842962962962962,,x (full s)
+FigS_ML_v2_vs_v3_scatter,data,DM vs CDM,Species,L2-LR,,,,,estA_auc_v3,0.7317777777777777,,y (full s)
+FigS_ML_v2_vs_v3_scatter,data,DM vs CDM,Species,L2-LR,,,,,delta_v3_minus_v2,-0.1525185185185185,,
+FigS_ML_v2_vs_v3_scatter,data,DM vs CDM,KO,XGBoost,,,,,estA_auc_v2,0.8985185185185184,,x (none o)
+FigS_ML_v2_vs_v3_scatter,data,DM vs CDM,KO,XGBoost,,,,,estA_auc_v3,0.8985185185185184,,y (none o)
+FigS_ML_v2_vs_v3_scatter,data,DM vs CDM,KO,XGBoost,,,,,delta_v3_minus_v2,0.0,,
+FigS_ML_v2_vs_v3_scatter,data,DM vs CDM,KO,L2-LR,,,,,estA_auc_v2,0.8182222222222222,,x (none s)
+FigS_ML_v2_vs_v3_scatter,data,DM vs CDM,KO,L2-LR,,,,,estA_auc_v3,0.8182222222222222,,y (none s)
+FigS_ML_v2_vs_v3_scatter,data,DM vs CDM,KO,L2-LR,,,,,delta_v3_minus_v2,0.0,,
+FigS_ML_v2_vs_v3_scatter,data,DM vs CDM,Combined,XGBoost,,,,,estA_auc_v2,0.8578518518518518,,x (left o)
+FigS_ML_v2_vs_v3_scatter,data,DM vs CDM,Combined,XGBoost,,,,,estA_auc_v3,0.8778518518518519,,y (left o)
+FigS_ML_v2_vs_v3_scatter,data,DM vs CDM,Combined,XGBoost,,,,,delta_v3_minus_v2,0.02000000000000013,,
+FigS_ML_v2_vs_v3_scatter,data,DM vs CDM,Combined,L2-LR,,,,,estA_auc_v2,0.827037037037037,,x (left s)
+FigS_ML_v2_vs_v3_scatter,data,DM vs CDM,Combined,L2-LR,,,,,estA_auc_v3,0.8023703703703703,,y (left s)
+FigS_ML_v2_vs_v3_scatter,data,DM vs CDM,Combined,L2-LR,,,,,delta_v3_minus_v2,-0.024666666666666726,,
+FigS_ML_v2_vs_v3_scatter,axis_tick,,,,,,,,x_tick,0.3,0.3,
+FigS_ML_v2_vs_v3_scatter,axis_tick,,,,,,,,x_tick,0.4,0.4,
+FigS_ML_v2_vs_v3_scatter,axis_tick,,,,,,,,x_tick,0.5,0.5,
+FigS_ML_v2_vs_v3_scatter,axis_tick,,,,,,,,x_tick,0.6,0.6,
+FigS_ML_v2_vs_v3_scatter,axis_tick,,,,,,,,x_tick,0.7,0.7,
+FigS_ML_v2_vs_v3_scatter,axis_tick,,,,,,,,x_tick,0.8,0.8,
+FigS_ML_v2_vs_v3_scatter,axis_tick,,,,,,,,x_tick,0.9,0.9,
+FigS_ML_v2_vs_v3_scatter,axis_tick,,,,,,,,x_tick,1.0,1.0,
+FigS_ML_v2_vs_v3_scatter,axis_tick,,,,,,,,y_tick,0.3,0.3,
+FigS_ML_v2_vs_v3_scatter,axis_tick,,,,,,,,y_tick,0.4,0.4,
+FigS_ML_v2_vs_v3_scatter,axis_tick,,,,,,,,y_tick,0.5,0.5,
+FigS_ML_v2_vs_v3_scatter,axis_tick,,,,,,,,y_tick,0.6,0.6,
+FigS_ML_v2_vs_v3_scatter,axis_tick,,,,,,,,y_tick,0.7,0.7,
+FigS_ML_v2_vs_v3_scatter,axis_tick,,,,,,,,y_tick,0.8,0.8,
+FigS_ML_v2_vs_v3_scatter,axis_tick,,,,,,,,y_tick,0.9,0.9,
+FigS_ML_v2_vs_v3_scatter,axis_tick,,,,,,,,y_tick,1.0,1.0,
+FigS_ML_v2_vs_v3_scatter,data,,,,,,,,pearson_r_16_species_combined_cells,0.9302245411707107,,not drawn (legend text / README)
+FigS_ML_v2_vs_v3_scatter,data,,,,,,,,pearson_r_all_24_cells,0.9527809842804943,,not drawn (legend text / README)
+FigS_ML_v2_vs_v3_scatter,label_text,,,,,,,,label_text,,"Estimator A, mean over 5 seeds; 24 cells.",
+FigS_ML_v2_vs_v3_scatter,label_text,,,,,,,,label_text,,L2-LR,
+FigS_ML_v2_vs_v3_scatter,data,,,,,,,,n_cells,24,24,
+FigS_ML_v2_vs_v3_scatter,data,,,,,,,,n_seeds,5,5,

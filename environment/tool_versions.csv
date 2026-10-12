@@ -1,0 +1,14 @@
+tool,version
+bowtie2,"2.5.4 (M6 recruitment; mapping_env) / 2.5.5 (instrain_m3, panphlan_m1 envs) / v2.2.3 (original MAG pipeline per Methods)"
+MEGAHIT,1.2.9
+CheckM,1.2.4
+skani,0.3.2
+Roary,3.13.0 (roary_env); 3.12.0 (prokka_new env)
+Prokka,1.12 (prokka_new env)
+IQ-TREE,3.0.1 (Fig 6 trees; roary_env) / 1.6.9 (original trees in input_ml_tree) / 3.1.4 (FIG_build install log)
+MAFFT,7.526 (roary_env/prokka envs)
+GTDB-Tk,2.4.1 (reference data r226)
+MetaPhlAn,4.1 (database mpa_vJun23_CHOCOPhlAnSGB_202403)
+HUMAnN,3.9 (external cirrhosis cohort log only; discovery-cohort version NA)
+KneadData,0.12.0 (Trimmomatic 0.39)
+MetaBAT2,2.12.1 (as stated in manuscript Methods; no run log found)

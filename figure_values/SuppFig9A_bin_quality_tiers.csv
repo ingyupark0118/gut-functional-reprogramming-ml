@@ -1,0 +1,9 @@
+group,tier,n_bins,group_total_bins,percent
+CDM,Low-quality,41,78,52.6
+CDM,Medium-quality,12,78,15.4
+CDM,Near-complete,16,78,20.5
+CDM,Partial,9,78,11.5
+NC,Low-quality,223,394,56.6
+NC,Medium-quality,70,394,17.8
+NC,Near-complete,59,394,15.0
+NC,Partial,42,394,10.7

@@ -1,0 +1,19 @@
+KO,sp,has_stratum,fig7c_states,gene_in_species,status,status_definition_report,gene,species
+K00075,Lc,TRUE,1/2,TRUE,data,data,murB,L. crispatus
+K01512,Lc,TRUE,1/1,TRUE,data,data,acyP,L. crispatus
+K04042,Lc,TRUE,1/2,TRUE,data,data,glmU,L. crispatus
+K03060,Lc,TRUE,1/1,TRUE,data,data,rpoZ,L. crispatus
+K03799,Lc,TRUE,1/1,TRUE,data,data,htpX,L. crispatus
+K03116,Lc,FALSE,4/4,FALSE,gene absent,gene absent,tatA,L. crispatus
+K10716,Lc,TRUE,5/1,TRUE,data,data,kch,L. crispatus
+K03687,Lc,TRUE,1/1,TRUE,data,data,grpE,L. crispatus
+K03101,Lc,FALSE,1/1,TRUE,annotation gap,annotation gap,lspA,L. crispatus
+K00075,Vp,FALSE,1/1/1,TRUE,annotation gap,annotation gap,murB,V. parvula
+K01512,Vp,FALSE,4/4/4,FALSE,gene absent,gene absent,acyP,V. parvula
+K04042,Vp,TRUE,1/1/1,TRUE,data,data,glmU,V. parvula
+K03060,Vp,FALSE,1/1/1,TRUE,annotation gap,annotation gap,rpoZ,V. parvula
+K03799,Vp,TRUE,1/1/1,TRUE,data,data,htpX,V. parvula
+K03116,Vp,TRUE,1/1/1,TRUE,data,data,tatA,V. parvula
+K10716,Vp,FALSE,4/4/4,FALSE,gene absent,gene absent,kch,V. parvula
+K03687,Vp,FALSE,1/1/1,TRUE,annotation gap,annotation gap,grpE,V. parvula
+K03101,Vp,TRUE,1/3/3,TRUE,data,data,lspA,V. parvula

@@ -1,0 +1,12 @@
+nested CV outer/inner/Boruta/XGBoost: 42, 43, 44, 45, 46
+ConQuR per taxon: set.seed(20260930 + taxon column index)
+bootstrap AUROC CI (2000 resamples): 20261002 ; 20261005
+SparCC networks: base 20261002 (list: base, set index, group index, draw + 1); Louvain seeds 0-9
+SparCC sub-sample draws (100 x n=14): 20261002
+Spearman network sub-samples (1000 x n=14): 20261005 ; n=13 sensitivity: 20261006
+PERMANOVA (999 permutations): set.seed(1)
+habitat placement permutations (10000): 20261005 ; ordination (9999): 20261005
+habitat expected-count recalculation (100000): 20261008
+reference selection: 20261001 (tree genomes) ; 20261005 (habitat genome set)
+bowtie2 --seed: 20261005
+IQ-TREE -seed: 42

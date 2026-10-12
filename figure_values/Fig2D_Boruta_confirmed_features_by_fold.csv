@@ -1,0 +1,463 @@
+panel,kind,comparison,input,model,seed,fold,feature,cohort,quantity,value,printed,mark
+Fig2D_boruta_counts_v2,data,NC vs DM,Species,,46,2,,,n_confirmed,2,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,Species,,42,1,,,n_confirmed,3,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,Species,,43,2,,,n_confirmed,3,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,Species,,44,0,,,n_confirmed,3,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,Species,,45,2,,,n_confirmed,3,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,Species,,45,4,,,n_confirmed,3,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,Species,,43,1,,,n_confirmed,4,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,Species,,43,3,,,n_confirmed,4,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,Species,,44,3,,,n_confirmed,4,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,Species,,43,0,,,n_confirmed,5,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,Species,,45,1,,,n_confirmed,5,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,Species,,45,3,,,n_confirmed,5,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,Species,,46,4,,,n_confirmed,5,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,Species,,42,0,,,n_confirmed,6,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,Species,,42,3,,,n_confirmed,6,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,Species,,43,4,,,n_confirmed,6,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,Species,,46,1,,,n_confirmed,6,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,Species,,42,2,,,n_confirmed,7,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,Species,,44,2,,,n_confirmed,7,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,Species,,44,4,,,n_confirmed,7,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,Species,,46,0,,,n_confirmed,7,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,Species,,42,4,,,n_confirmed,8,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,Species,,44,1,,,n_confirmed,8,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,Species,,46,3,,,n_confirmed,9,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,Species,,45,0,,,n_confirmed,10,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,Species,,,,,,median_n_confirmed,5.0,,black line
+Fig2D_boruta_counts_v2,data,NC vs DM,Species,,,,,,min_n_confirmed,2,,
+Fig2D_boruta_counts_v2,data,NC vs DM,Species,,,,,,max_n_confirmed,10,,
+Fig2D_boruta_counts_v2,data,NC vs DM,Species,,,,,,n_folds_boruta_run,25,,
+Fig2D_boruta_counts_v2,data,NC vs DM,Species,,,,,,n_folds_retained,25,,
+Fig2D_boruta_counts_v2,data,NC vs DM,Species,,,,,,n_folds_dropped_zero,0,,
+Fig2D_boruta_counts_v2,data,NC vs DM,Species,,,,,,n_folds_kept_tentative_only,0,,
+Fig2D_boruta_counts_v2,data,NC vs DM,Species,,,,,,n_folds_confirmed,25,,
+Fig2D_boruta_counts_v2,data,NC vs DM,Species,,,,,,n_folds_not_run,0,,
+Fig2D_boruta_counts_v2,data,NC vs DM,Species,,,,,,n_folds_dropped,0,,
+Fig2D_boruta_counts_v2,data,NC vs DM,Species,,,,,,median_n_confirmed_retained_folds,5.0,,
+Fig2D_boruta_counts_v2,data,NC vs DM,KO,,45,4,,,n_confirmed,2,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,KO,,46,2,,,n_confirmed,2,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,KO,,44,0,,,n_confirmed,3,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,KO,,42,1,,,n_confirmed,4,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,KO,,42,3,,,n_confirmed,5,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,KO,,46,1,,,n_confirmed,5,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,KO,,43,1,,,n_confirmed,6,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,KO,,45,3,,,n_confirmed,6,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,KO,,42,0,,,n_confirmed,7,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,KO,,43,4,,,n_confirmed,7,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,KO,,46,4,,,n_confirmed,8,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,KO,,46,0,,,n_confirmed,9,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,KO,,44,3,,,n_confirmed,10,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,KO,,45,2,,,n_confirmed,10,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,KO,,46,3,,,n_confirmed,10,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,KO,,43,2,,,n_confirmed,11,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,KO,,44,4,,,n_confirmed,11,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,KO,,42,2,,,n_confirmed,12,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,KO,,43,3,,,n_confirmed,12,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,KO,,42,4,,,n_confirmed,14,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,KO,,44,2,,,n_confirmed,14,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,KO,,44,1,,,n_confirmed,17,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,KO,,45,1,,,n_confirmed,17,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,KO,,43,0,,,n_confirmed,21,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,KO,,45,0,,,n_confirmed,24,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,KO,,,,,,median_n_confirmed,10.0,,black line
+Fig2D_boruta_counts_v2,data,NC vs DM,KO,,,,,,min_n_confirmed,2,,
+Fig2D_boruta_counts_v2,data,NC vs DM,KO,,,,,,max_n_confirmed,24,,
+Fig2D_boruta_counts_v2,data,NC vs DM,KO,,,,,,n_folds_boruta_run,25,,
+Fig2D_boruta_counts_v2,data,NC vs DM,KO,,,,,,n_folds_retained,25,,
+Fig2D_boruta_counts_v2,data,NC vs DM,KO,,,,,,n_folds_dropped_zero,0,,
+Fig2D_boruta_counts_v2,data,NC vs DM,KO,,,,,,n_folds_kept_tentative_only,0,,
+Fig2D_boruta_counts_v2,data,NC vs DM,KO,,,,,,n_folds_confirmed,25,,
+Fig2D_boruta_counts_v2,data,NC vs DM,KO,,,,,,n_folds_not_run,0,,
+Fig2D_boruta_counts_v2,data,NC vs DM,KO,,,,,,n_folds_dropped,0,,
+Fig2D_boruta_counts_v2,data,NC vs DM,KO,,,,,,median_n_confirmed_retained_folds,10.0,,
+Fig2D_boruta_counts_v2,data,NC vs DM,Combined,,43,1,,,n_confirmed,2,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,Combined,,45,3,,,n_confirmed,2,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,Combined,,42,1,,,n_confirmed,3,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,Combined,,42,3,,,n_confirmed,3,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,Combined,,45,4,,,n_confirmed,4,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,Combined,,43,2,,,n_confirmed,5,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,Combined,,46,1,,,n_confirmed,6,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,Combined,,44,0,,,n_confirmed,7,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,Combined,,44,4,,,n_confirmed,7,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,Combined,,46,0,,,n_confirmed,7,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,Combined,,46,4,,,n_confirmed,8,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,Combined,,42,4,,,n_confirmed,9,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,Combined,,46,2,,,n_confirmed,9,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,Combined,,44,3,,,n_confirmed,10,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,Combined,,45,2,,,n_confirmed,10,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,Combined,,42,0,,,n_confirmed,11,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,Combined,,44,2,,,n_confirmed,11,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,Combined,,42,2,,,n_confirmed,12,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,Combined,,43,4,,,n_confirmed,12,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,Combined,,43,0,,,n_confirmed,13,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,Combined,,43,3,,,n_confirmed,14,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,Combined,,45,1,,,n_confirmed,14,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,Combined,,46,3,,,n_confirmed,14,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,Combined,,44,1,,,n_confirmed,21,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,Combined,,45,0,,,n_confirmed,24,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs DM,Combined,,,,,,median_n_confirmed,9.0,,black line
+Fig2D_boruta_counts_v2,data,NC vs DM,Combined,,,,,,min_n_confirmed,2,,
+Fig2D_boruta_counts_v2,data,NC vs DM,Combined,,,,,,max_n_confirmed,24,,
+Fig2D_boruta_counts_v2,data,NC vs DM,Combined,,,,,,n_folds_boruta_run,25,,
+Fig2D_boruta_counts_v2,data,NC vs DM,Combined,,,,,,n_folds_retained,25,,
+Fig2D_boruta_counts_v2,data,NC vs DM,Combined,,,,,,n_folds_dropped_zero,0,,
+Fig2D_boruta_counts_v2,data,NC vs DM,Combined,,,,,,n_folds_kept_tentative_only,0,,
+Fig2D_boruta_counts_v2,data,NC vs DM,Combined,,,,,,n_folds_confirmed,25,,
+Fig2D_boruta_counts_v2,data,NC vs DM,Combined,,,,,,n_folds_not_run,0,,
+Fig2D_boruta_counts_v2,data,NC vs DM,Combined,,,,,,n_folds_dropped,0,,
+Fig2D_boruta_counts_v2,data,NC vs DM,Combined,,,,,,median_n_confirmed_retained_folds,9.0,,
+Fig2D_boruta_counts_v2,axis_tick,,,,,,,,y_tick,0.0,0,
+Fig2D_boruta_counts_v2,axis_tick,,,,,,,,y_tick,2.0,2,
+Fig2D_boruta_counts_v2,axis_tick,,,,,,,,y_tick,4.0,4,
+Fig2D_boruta_counts_v2,axis_tick,,,,,,,,y_tick,6.0,6,
+Fig2D_boruta_counts_v2,axis_tick,,,,,,,,y_tick,8.0,8,
+Fig2D_boruta_counts_v2,axis_tick,,,,,,,,y_tick,10.0,10,
+Fig2D_boruta_counts_v2,axis_tick,,,,,,,,y_tick,20.0,20,
+Fig2D_boruta_counts_v2,axis_tick,,,,,,,,y_tick,40.0,40,
+Fig2D_boruta_counts_v2,axis_tick,,,,,,,,y_tick,80.0,80,
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Species,,42,0,,,n_confirmed,,,not_run
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Species,,42,1,,,n_confirmed,0,,dropped_zero
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Species,,43,1,,,n_confirmed,0,,dropped_zero
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Species,,44,1,,,n_confirmed,0,,dropped_zero
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Species,,44,4,,,n_confirmed,0,,dropped_zero
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Species,,45,2,,,n_confirmed,0,,dropped_zero
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Species,,45,3,,,n_confirmed,0,,dropped_zero
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Species,,46,3,,,n_confirmed,0,,dropped_zero
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Species,,43,0,,,n_confirmed,0,,kept_tentative_only
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Species,,43,3,,,n_confirmed,0,,kept_tentative_only
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Species,,46,1,,,n_confirmed,0,,kept_tentative_only
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Species,,42,3,,,n_confirmed,1,,confirmed
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Species,,42,4,,,n_confirmed,1,,confirmed
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Species,,43,2,,,n_confirmed,1,,confirmed
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Species,,43,4,,,n_confirmed,1,,confirmed
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Species,,44,3,,,n_confirmed,1,,confirmed
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Species,,45,0,,,n_confirmed,1,,confirmed
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Species,,46,0,,,n_confirmed,1,,confirmed
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Species,,46,4,,,n_confirmed,1,,confirmed
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Species,,42,2,,,n_confirmed,2,,confirmed
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Species,,44,2,,,n_confirmed,2,,confirmed
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Species,,45,1,,,n_confirmed,2,,confirmed
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Species,,46,2,,,n_confirmed,2,,confirmed
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Species,,45,4,,,n_confirmed,3,,confirmed
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Species,,44,0,,,n_confirmed,4,,confirmed
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Species,,,,,,median_n_confirmed,1.0,,black line
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Species,,,,,,min_n_confirmed,0,,
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Species,,,,,,max_n_confirmed,4,,
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Species,,,,,,n_folds_boruta_run,24,,
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Species,,,,,,n_folds_retained,17,,
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Species,,,,,,n_folds_dropped_zero,7,,
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Species,,,,,,n_folds_kept_tentative_only,3,,
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Species,,,,,,n_folds_confirmed,14,,
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Species,,,,,,n_folds_not_run,1,,
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Species,,,,,,n_folds_dropped,8,8,printed above the column
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Species,,,,,,median_n_confirmed_retained_folds,1.0,,not drawn (legend text / README)
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,KO,,43,1,,,n_confirmed,,,not_run
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,KO,,43,2,,,n_confirmed,0,,dropped_zero
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,KO,,44,2,,,n_confirmed,0,,dropped_zero
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,KO,,45,2,,,n_confirmed,0,,dropped_zero
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,KO,,45,3,,,n_confirmed,0,,dropped_zero
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,KO,,46,0,,,n_confirmed,0,,dropped_zero
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,KO,,46,1,,,n_confirmed,0,,dropped_zero
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,KO,,46,4,,,n_confirmed,0,,dropped_zero
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,KO,,42,1,,,n_confirmed,1,,confirmed
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,KO,,42,4,,,n_confirmed,1,,confirmed
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,KO,,43,0,,,n_confirmed,1,,confirmed
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,KO,,43,3,,,n_confirmed,1,,confirmed
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,KO,,44,0,,,n_confirmed,1,,confirmed
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,KO,,44,3,,,n_confirmed,1,,confirmed
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,KO,,44,4,,,n_confirmed,1,,confirmed
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,KO,,45,0,,,n_confirmed,1,,confirmed
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,KO,,42,0,,,n_confirmed,2,,confirmed
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,KO,,42,2,,,n_confirmed,2,,confirmed
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,KO,,42,3,,,n_confirmed,2,,confirmed
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,KO,,43,4,,,n_confirmed,2,,confirmed
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,KO,,45,1,,,n_confirmed,2,,confirmed
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,KO,,44,1,,,n_confirmed,3,,confirmed
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,KO,,45,4,,,n_confirmed,3,,confirmed
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,KO,,46,2,,,n_confirmed,4,,confirmed
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,KO,,46,3,,,n_confirmed,5,,confirmed
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,KO,,,,,,median_n_confirmed,1.0,,black line
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,KO,,,,,,min_n_confirmed,0,,
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,KO,,,,,,max_n_confirmed,5,,
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,KO,,,,,,n_folds_boruta_run,24,,
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,KO,,,,,,n_folds_retained,17,,
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,KO,,,,,,n_folds_dropped_zero,7,,
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,KO,,,,,,n_folds_kept_tentative_only,0,,
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,KO,,,,,,n_folds_confirmed,17,,
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,KO,,,,,,n_folds_not_run,1,,
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,KO,,,,,,n_folds_dropped,8,8,printed above the column
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,KO,,,,,,median_n_confirmed_retained_folds,2.0,,not drawn (legend text / README)
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Combined,,44,3,,,n_confirmed,,,not_run
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Combined,,42,4,,,n_confirmed,0,,dropped_zero
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Combined,,43,0,,,n_confirmed,0,,dropped_zero
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Combined,,43,1,,,n_confirmed,0,,dropped_zero
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Combined,,44,4,,,n_confirmed,0,,dropped_zero
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Combined,,45,2,,,n_confirmed,0,,dropped_zero
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Combined,,45,3,,,n_confirmed,0,,dropped_zero
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Combined,,46,0,,,n_confirmed,0,,dropped_zero
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Combined,,46,1,,,n_confirmed,0,,dropped_zero
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Combined,,46,4,,,n_confirmed,0,,dropped_zero
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Combined,,42,0,,,n_confirmed,1,,confirmed
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Combined,,42,1,,,n_confirmed,1,,confirmed
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Combined,,43,2,,,n_confirmed,1,,confirmed
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Combined,,43,3,,,n_confirmed,1,,confirmed
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Combined,,44,1,,,n_confirmed,1,,confirmed
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Combined,,44,2,,,n_confirmed,1,,confirmed
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Combined,,45,0,,,n_confirmed,1,,confirmed
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Combined,,43,4,,,n_confirmed,2,,confirmed
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Combined,,44,0,,,n_confirmed,2,,confirmed
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Combined,,45,1,,,n_confirmed,2,,confirmed
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Combined,,46,2,,,n_confirmed,2,,confirmed
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Combined,,46,3,,,n_confirmed,3,,confirmed
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Combined,,42,2,,,n_confirmed,4,,confirmed
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Combined,,42,3,,,n_confirmed,4,,confirmed
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Combined,,45,4,,,n_confirmed,5,,confirmed
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Combined,,,,,,median_n_confirmed,1.0,,black line
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Combined,,,,,,min_n_confirmed,0,,
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Combined,,,,,,max_n_confirmed,5,,
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Combined,,,,,,n_folds_boruta_run,24,,
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Combined,,,,,,n_folds_retained,15,,
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Combined,,,,,,n_folds_dropped_zero,9,,
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Combined,,,,,,n_folds_kept_tentative_only,0,,
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Combined,,,,,,n_folds_confirmed,15,,
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Combined,,,,,,n_folds_not_run,1,,
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Combined,,,,,,n_folds_dropped,10,10,printed above the column
+Fig2D_boruta_counts_v2,data,Cirrhosis vs CDM,Combined,,,,,,median_n_confirmed_retained_folds,2.0,,not drawn (legend text / README)
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Species,,44,1,,,n_confirmed,19,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Species,,46,2,,,n_confirmed,19,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Species,,42,4,,,n_confirmed,20,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Species,,44,4,,,n_confirmed,20,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Species,,45,4,,,n_confirmed,20,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Species,,42,1,,,n_confirmed,21,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Species,,45,3,,,n_confirmed,21,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Species,,43,0,,,n_confirmed,22,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Species,,43,1,,,n_confirmed,22,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Species,,44,0,,,n_confirmed,22,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Species,,45,0,,,n_confirmed,22,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Species,,46,1,,,n_confirmed,23,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Species,,46,4,,,n_confirmed,23,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Species,,43,2,,,n_confirmed,24,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Species,,42,2,,,n_confirmed,25,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Species,,43,3,,,n_confirmed,25,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Species,,43,4,,,n_confirmed,25,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Species,,44,2,,,n_confirmed,25,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Species,,45,1,,,n_confirmed,25,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Species,,42,0,,,n_confirmed,26,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Species,,42,3,,,n_confirmed,26,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Species,,45,2,,,n_confirmed,26,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Species,,44,3,,,n_confirmed,27,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Species,,46,3,,,n_confirmed,27,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Species,,46,0,,,n_confirmed,28,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Species,,,,,,median_n_confirmed,23.0,,black line
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Species,,,,,,min_n_confirmed,19,,
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Species,,,,,,max_n_confirmed,28,,
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Species,,,,,,n_folds_boruta_run,25,,
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Species,,,,,,n_folds_retained,25,,
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Species,,,,,,n_folds_dropped_zero,0,,
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Species,,,,,,n_folds_kept_tentative_only,0,,
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Species,,,,,,n_folds_confirmed,25,,
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Species,,,,,,n_folds_not_run,0,,
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Species,,,,,,n_folds_dropped,0,,
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Species,,,,,,median_n_confirmed_retained_folds,23.0,,
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,KO,,42,2,,,n_confirmed,31,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,KO,,44,1,,,n_confirmed,32,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,KO,,44,4,,,n_confirmed,32,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,KO,,46,3,,,n_confirmed,32,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,KO,,45,2,,,n_confirmed,34,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,KO,,43,1,,,n_confirmed,35,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,KO,,45,0,,,n_confirmed,36,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,KO,,44,3,,,n_confirmed,37,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,KO,,43,3,,,n_confirmed,38,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,KO,,42,1,,,n_confirmed,39,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,KO,,45,4,,,n_confirmed,39,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,KO,,46,1,,,n_confirmed,41,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,KO,,43,2,,,n_confirmed,42,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,KO,,42,0,,,n_confirmed,43,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,KO,,46,0,,,n_confirmed,43,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,KO,,46,2,,,n_confirmed,44,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,KO,,42,3,,,n_confirmed,45,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,KO,,45,3,,,n_confirmed,45,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,KO,,46,4,,,n_confirmed,45,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,KO,,43,4,,,n_confirmed,46,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,KO,,45,1,,,n_confirmed,50,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,KO,,42,4,,,n_confirmed,55,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,KO,,43,0,,,n_confirmed,55,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,KO,,44,0,,,n_confirmed,59,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,KO,,44,2,,,n_confirmed,67,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,KO,,,,,,median_n_confirmed,42.0,,black line
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,KO,,,,,,min_n_confirmed,31,,
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,KO,,,,,,max_n_confirmed,67,,
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,KO,,,,,,n_folds_boruta_run,25,,
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,KO,,,,,,n_folds_retained,25,,
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,KO,,,,,,n_folds_dropped_zero,0,,
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,KO,,,,,,n_folds_kept_tentative_only,0,,
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,KO,,,,,,n_folds_confirmed,25,,
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,KO,,,,,,n_folds_not_run,0,,
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,KO,,,,,,n_folds_dropped,0,,
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,KO,,,,,,median_n_confirmed_retained_folds,42.0,,
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Combined,,44,1,,,n_confirmed,31,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Combined,,42,2,,,n_confirmed,38,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Combined,,43,3,,,n_confirmed,38,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Combined,,46,2,,,n_confirmed,38,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Combined,,46,3,,,n_confirmed,38,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Combined,,44,4,,,n_confirmed,39,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Combined,,45,3,,,n_confirmed,40,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Combined,,45,0,,,n_confirmed,42,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Combined,,43,2,,,n_confirmed,43,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Combined,,42,1,,,n_confirmed,44,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Combined,,46,0,,,n_confirmed,44,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Combined,,43,1,,,n_confirmed,46,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Combined,,42,0,,,n_confirmed,47,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Combined,,43,4,,,n_confirmed,47,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Combined,,45,2,,,n_confirmed,47,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Combined,,46,1,,,n_confirmed,48,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Combined,,44,3,,,n_confirmed,49,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Combined,,45,1,,,n_confirmed,50,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Combined,,45,4,,,n_confirmed,51,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Combined,,42,3,,,n_confirmed,53,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Combined,,43,0,,,n_confirmed,53,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Combined,,42,4,,,n_confirmed,59,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Combined,,44,0,,,n_confirmed,59,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Combined,,46,4,,,n_confirmed,59,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Combined,,44,2,,,n_confirmed,62,,confirmed
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Combined,,,,,,median_n_confirmed,47.0,,black line
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Combined,,,,,,min_n_confirmed,31,,
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Combined,,,,,,max_n_confirmed,62,,
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Combined,,,,,,n_folds_boruta_run,25,,
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Combined,,,,,,n_folds_retained,25,,
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Combined,,,,,,n_folds_dropped_zero,0,,
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Combined,,,,,,n_folds_kept_tentative_only,0,,
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Combined,,,,,,n_folds_confirmed,25,,
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Combined,,,,,,n_folds_not_run,0,,
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Combined,,,,,,n_folds_dropped,0,,
+Fig2D_boruta_counts_v2,data,NC vs Cirrhosis,Combined,,,,,,median_n_confirmed_retained_folds,47.0,,
+Fig2D_boruta_counts_v2,axis_tick,,,,,,,,y_tick,0.0,0,
+Fig2D_boruta_counts_v2,axis_tick,,,,,,,,y_tick,2.0,2,
+Fig2D_boruta_counts_v2,axis_tick,,,,,,,,y_tick,4.0,4,
+Fig2D_boruta_counts_v2,axis_tick,,,,,,,,y_tick,6.0,6,
+Fig2D_boruta_counts_v2,axis_tick,,,,,,,,y_tick,8.0,8,
+Fig2D_boruta_counts_v2,axis_tick,,,,,,,,y_tick,10.0,10,
+Fig2D_boruta_counts_v2,axis_tick,,,,,,,,y_tick,20.0,20,
+Fig2D_boruta_counts_v2,axis_tick,,,,,,,,y_tick,40.0,40,
+Fig2D_boruta_counts_v2,axis_tick,,,,,,,,y_tick,80.0,80,
+Fig2D_boruta_counts_v2,data,DM vs CDM,Species,,44,2,,,n_confirmed,7,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,Species,,44,4,,,n_confirmed,7,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,Species,,45,4,,,n_confirmed,7,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,Species,,42,3,,,n_confirmed,8,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,Species,,43,3,,,n_confirmed,8,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,Species,,44,0,,,n_confirmed,8,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,Species,,42,0,,,n_confirmed,9,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,Species,,42,4,,,n_confirmed,9,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,Species,,43,2,,,n_confirmed,9,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,Species,,45,0,,,n_confirmed,9,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,Species,,45,1,,,n_confirmed,9,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,Species,,46,0,,,n_confirmed,9,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,Species,,46,1,,,n_confirmed,9,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,Species,,42,1,,,n_confirmed,10,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,Species,,43,1,,,n_confirmed,10,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,Species,,43,4,,,n_confirmed,10,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,Species,,45,3,,,n_confirmed,10,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,Species,,46,3,,,n_confirmed,10,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,Species,,42,2,,,n_confirmed,12,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,Species,,44,1,,,n_confirmed,12,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,Species,,46,4,,,n_confirmed,12,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,Species,,43,0,,,n_confirmed,13,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,Species,,44,3,,,n_confirmed,13,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,Species,,45,2,,,n_confirmed,13,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,Species,,46,2,,,n_confirmed,13,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,Species,,,,,,median_n_confirmed,9.0,,black line
+Fig2D_boruta_counts_v2,data,DM vs CDM,Species,,,,,,min_n_confirmed,7,,
+Fig2D_boruta_counts_v2,data,DM vs CDM,Species,,,,,,max_n_confirmed,13,,
+Fig2D_boruta_counts_v2,data,DM vs CDM,Species,,,,,,n_folds_boruta_run,25,,
+Fig2D_boruta_counts_v2,data,DM vs CDM,Species,,,,,,n_folds_retained,25,,
+Fig2D_boruta_counts_v2,data,DM vs CDM,Species,,,,,,n_folds_dropped_zero,0,,
+Fig2D_boruta_counts_v2,data,DM vs CDM,Species,,,,,,n_folds_kept_tentative_only,0,,
+Fig2D_boruta_counts_v2,data,DM vs CDM,Species,,,,,,n_folds_confirmed,25,,
+Fig2D_boruta_counts_v2,data,DM vs CDM,Species,,,,,,n_folds_not_run,0,,
+Fig2D_boruta_counts_v2,data,DM vs CDM,Species,,,,,,n_folds_dropped,0,,
+Fig2D_boruta_counts_v2,data,DM vs CDM,Species,,,,,,median_n_confirmed_retained_folds,9.0,,
+Fig2D_boruta_counts_v2,data,DM vs CDM,KO,,46,4,,,n_confirmed,3,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,KO,,45,4,,,n_confirmed,8,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,KO,,44,2,,,n_confirmed,10,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,KO,,42,0,,,n_confirmed,12,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,KO,,42,4,,,n_confirmed,12,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,KO,,44,4,,,n_confirmed,15,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,KO,,46,0,,,n_confirmed,16,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,KO,,43,1,,,n_confirmed,17,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,KO,,43,3,,,n_confirmed,17,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,KO,,43,4,,,n_confirmed,17,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,KO,,45,3,,,n_confirmed,17,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,KO,,45,0,,,n_confirmed,18,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,KO,,44,0,,,n_confirmed,19,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,KO,,42,3,,,n_confirmed,20,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,KO,,43,2,,,n_confirmed,21,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,KO,,46,3,,,n_confirmed,21,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,KO,,43,0,,,n_confirmed,23,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,KO,,45,1,,,n_confirmed,23,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,KO,,42,2,,,n_confirmed,25,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,KO,,44,1,,,n_confirmed,29,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,KO,,46,1,,,n_confirmed,31,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,KO,,46,2,,,n_confirmed,32,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,KO,,42,1,,,n_confirmed,35,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,KO,,44,3,,,n_confirmed,35,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,KO,,45,2,,,n_confirmed,44,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,KO,,,,,,median_n_confirmed,19.0,,black line
+Fig2D_boruta_counts_v2,data,DM vs CDM,KO,,,,,,min_n_confirmed,3,,
+Fig2D_boruta_counts_v2,data,DM vs CDM,KO,,,,,,max_n_confirmed,44,,
+Fig2D_boruta_counts_v2,data,DM vs CDM,KO,,,,,,n_folds_boruta_run,25,,
+Fig2D_boruta_counts_v2,data,DM vs CDM,KO,,,,,,n_folds_retained,25,,
+Fig2D_boruta_counts_v2,data,DM vs CDM,KO,,,,,,n_folds_dropped_zero,0,,
+Fig2D_boruta_counts_v2,data,DM vs CDM,KO,,,,,,n_folds_kept_tentative_only,0,,
+Fig2D_boruta_counts_v2,data,DM vs CDM,KO,,,,,,n_folds_confirmed,25,,
+Fig2D_boruta_counts_v2,data,DM vs CDM,KO,,,,,,n_folds_not_run,0,,
+Fig2D_boruta_counts_v2,data,DM vs CDM,KO,,,,,,n_folds_dropped,0,,
+Fig2D_boruta_counts_v2,data,DM vs CDM,KO,,,,,,median_n_confirmed_retained_folds,19.0,,
+Fig2D_boruta_counts_v2,data,DM vs CDM,Combined,,44,2,,,n_confirmed,2,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,Combined,,43,4,,,n_confirmed,7,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,Combined,,46,4,,,n_confirmed,8,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,Combined,,42,0,,,n_confirmed,9,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,Combined,,45,4,,,n_confirmed,9,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,Combined,,44,4,,,n_confirmed,12,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,Combined,,46,3,,,n_confirmed,14,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,Combined,,45,3,,,n_confirmed,15,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,Combined,,45,0,,,n_confirmed,16,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,Combined,,43,3,,,n_confirmed,17,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,Combined,,46,0,,,n_confirmed,17,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,Combined,,43,1,,,n_confirmed,18,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,Combined,,42,4,,,n_confirmed,19,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,Combined,,42,3,,,n_confirmed,20,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,Combined,,44,0,,,n_confirmed,23,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,Combined,,43,2,,,n_confirmed,24,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,Combined,,43,0,,,n_confirmed,26,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,Combined,,42,2,,,n_confirmed,27,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,Combined,,44,1,,,n_confirmed,28,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,Combined,,45,1,,,n_confirmed,31,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,Combined,,44,3,,,n_confirmed,33,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,Combined,,42,1,,,n_confirmed,34,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,Combined,,46,1,,,n_confirmed,34,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,Combined,,46,2,,,n_confirmed,36,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,Combined,,45,2,,,n_confirmed,37,,confirmed
+Fig2D_boruta_counts_v2,data,DM vs CDM,Combined,,,,,,median_n_confirmed,19.0,,black line
+Fig2D_boruta_counts_v2,data,DM vs CDM,Combined,,,,,,min_n_confirmed,2,,
+Fig2D_boruta_counts_v2,data,DM vs CDM,Combined,,,,,,max_n_confirmed,37,,
+Fig2D_boruta_counts_v2,data,DM vs CDM,Combined,,,,,,n_folds_boruta_run,25,,
+Fig2D_boruta_counts_v2,data,DM vs CDM,Combined,,,,,,n_folds_retained,25,,
+Fig2D_boruta_counts_v2,data,DM vs CDM,Combined,,,,,,n_folds_dropped_zero,0,,
+Fig2D_boruta_counts_v2,data,DM vs CDM,Combined,,,,,,n_folds_kept_tentative_only,0,,
+Fig2D_boruta_counts_v2,data,DM vs CDM,Combined,,,,,,n_folds_confirmed,25,,
+Fig2D_boruta_counts_v2,data,DM vs CDM,Combined,,,,,,n_folds_not_run,0,,
+Fig2D_boruta_counts_v2,data,DM vs CDM,Combined,,,,,,n_folds_dropped,0,,
+Fig2D_boruta_counts_v2,data,DM vs CDM,Combined,,,,,,median_n_confirmed_retained_folds,19.0,,
+Fig2D_boruta_counts_v2,label_text,,,,,,,,label_text,,"y axis in all four facets: linear 0–10, logarithmic 10–80 (dotted line at 10);",
+Fig2D_boruta_counts_v2,label_text,,,,,,,,label_text,,markers at 0 are staggered in two tiers (all have the value 0).,
+Fig2D_boruta_counts_v2,data,,,,,,,,n_folds_all_comparisons,300,300,
+Fig2D_boruta_counts_v2,data,,,,,,,,n_folds_per_column,25,25,
+Fig2D_boruta_counts_v2,data,,,,,,,,n_folds_confirmed_total,271,271,
+Fig2D_boruta_counts_v2,data,,,,,,,,n_folds_kept_tentative_only_total,3,3,
+Fig2D_boruta_counts_v2,data,,,,,,,,n_folds_dropped_zero_total,23,23,
+Fig2D_boruta_counts_v2,data,,,,,,,,n_folds_not_run_total,3,3,
+Fig2D_boruta_counts_v2,label_text,,,,,,,,label_text,,≥ 1 confirmed feature,
+Fig2D_boruta_counts_v2,label_text,,,,,,,,label_text,,0 confirmed; fold retained through tentative features,
+Fig2D_boruta_counts_v2,label_text,,,,,,,,label_text,,dropped folds with 0 included,
+Fig2D_boruta_counts_v2,axis_tick,,,,,,,,scale_change,10,10,divider line + break mark on the y axis; 'linear scale' / 'log scale' labels

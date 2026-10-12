@@ -1,0 +1,55 @@
+KO,gene,comparison,input,n_selected,denominator,fraction,majority,n_selected_confirmed_or_tentative,q,q_lt_0.05,coefficient,shaded,criterion_met,block,row_rank,n_folds_total,n_folds_outer_boruta_run,pval,stderr,bh_family_n_tests,drawn
+K00075,murB,DM vs CDM,KO,25,25,1.0,True,25.0,,,,True,"(1) selected in > half of usable folds, DM vs CDM (KO and Combined input)",Boruta selection,1,25,25,,,,marker + printed n/denominator
+K00075,murB,DM vs CDM,Combined,24,25,0.96,True,24.0,,,,True,"(1) selected in > half of usable folds, DM vs CDM (KO and Combined input)",Boruta selection,1,25,25,,,,marker + printed n/denominator
+K00075,murB,Cirrhosis vs CDM,KO,0,17,0.0,False,0.0,,,,True,"(1) selected in > half of usable folds, DM vs CDM (KO and Combined input)",Boruta selection,1,25,24,,,,marker + printed n/denominator
+K00075,murB,Cirrhosis vs CDM,Combined,1,15,0.06666666666666667,False,1.0,,,,True,"(1) selected in > half of usable folds, DM vs CDM (KO and Combined input)",Boruta selection,1,25,24,,,,marker + printed n/denominator
+K00075,murB,CDM vs DM,KO-sum unit (MaAsLin2),,,,,,0.109273608532654,False,0.968304520930249,True,"(1) selected in > half of usable folds, DM vs CDM (KO and Combined input)",MaAsLin2,1,,,0.0071521172250938,0.35464280067303,90,marker at -log10(q) + printed q (3 decimals)
+K00075,murB,CDM vs Cirrhosis,KO-sum unit (MaAsLin2),,,,,,0.325240935466037,False,0.707390468725881,True,"(1) selected in > half of usable folds, DM vs CDM (KO and Combined input)",MaAsLin2,1,,,0.050593034405828,0.358691933266717,90,marker at -log10(q) + printed q (3 decimals)
+K01512,acyP,DM vs CDM,KO,18,25,0.72,True,18.0,,,,True,"(1) selected in > half of usable folds, DM vs CDM (KO and Combined input) + (2) q < 0.05, CDM vs DM",Boruta selection,2,25,25,,,,marker + printed n/denominator
+K01512,acyP,DM vs CDM,Combined,19,25,0.76,True,19.0,,,,True,"(1) selected in > half of usable folds, DM vs CDM (KO and Combined input) + (2) q < 0.05, CDM vs DM",Boruta selection,2,25,25,,,,marker + printed n/denominator
+K01512,acyP,Cirrhosis vs CDM,KO,1,17,0.058823529411764705,False,1.0,,,,True,"(1) selected in > half of usable folds, DM vs CDM (KO and Combined input) + (2) q < 0.05, CDM vs DM",Boruta selection,2,25,24,,,,marker + printed n/denominator
+K01512,acyP,Cirrhosis vs CDM,Combined,3,15,0.2,False,3.0,,,,True,"(1) selected in > half of usable folds, DM vs CDM (KO and Combined input) + (2) q < 0.05, CDM vs DM",Boruta selection,2,25,24,,,,marker + printed n/denominator
+K01512,acyP,CDM vs DM,KO-sum unit (MaAsLin2),,,,,,0.0144645282485098,True,4.19432631542765,True,"(1) selected in > half of usable folds, DM vs CDM (KO and Combined input) + (2) q < 0.05, CDM vs DM",MaAsLin2,2,,,0.0001607169805389,1.08081030121469,90,marker at -log10(q) + printed q (3 decimals)
+K01512,acyP,CDM vs Cirrhosis,KO-sum unit (MaAsLin2),,,,,,0.172515876617601,False,2.87186514366042,True,"(1) selected in > half of usable folds, DM vs CDM (KO and Combined input) + (2) q < 0.05, CDM vs DM",MaAsLin2,2,,,0.0095842153676444,1.09315044800446,90,marker at -log10(q) + printed q (3 decimals)
+K04042,glmU,DM vs CDM,KO,11,25,0.44,False,11.0,,,,True,"(2) q < 0.05, CDM vs DM",Boruta selection,3,25,25,,,,marker + printed n/denominator
+K04042,glmU,DM vs CDM,Combined,8,25,0.32,False,9.0,,,,True,"(2) q < 0.05, CDM vs DM",Boruta selection,3,25,25,,,,marker + printed n/denominator
+K04042,glmU,Cirrhosis vs CDM,KO,0,17,0.0,False,0.0,,,,True,"(2) q < 0.05, CDM vs DM",Boruta selection,3,25,24,,,,marker + printed n/denominator
+K04042,glmU,Cirrhosis vs CDM,Combined,0,15,0.0,False,0.0,,,,True,"(2) q < 0.05, CDM vs DM",Boruta selection,3,25,24,,,,marker + printed n/denominator
+K04042,glmU,CDM vs DM,KO-sum unit (MaAsLin2),,,,,,0.0470170529198736,True,2.18823973197087,True,"(2) q < 0.05, CDM vs DM",MaAsLin2,3,,,0.0020896467964388,0.697652500539013,90,marker at -log10(q) + printed q (3 decimals)
+K04042,glmU,CDM vs Cirrhosis,KO-sum unit (MaAsLin2),,,,,,0.280106158038151,False,1.51527256191933,True,"(2) q < 0.05, CDM vs DM",MaAsLin2,3,,,0.033505442433461,0.705617944849848,90,marker at -log10(q) + printed q (3 decimals)
+K03060,rpoZ,DM vs CDM,KO,5,25,0.2,False,5.0,,,,True,"(2) q < 0.05, CDM vs DM",Boruta selection,4,25,25,,,,marker + printed n/denominator
+K03060,rpoZ,DM vs CDM,Combined,7,25,0.28,False,7.0,,,,True,"(2) q < 0.05, CDM vs DM",Boruta selection,4,25,25,,,,marker + printed n/denominator
+K03060,rpoZ,Cirrhosis vs CDM,KO,0,17,0.0,False,0.0,,,,True,"(2) q < 0.05, CDM vs DM",Boruta selection,4,25,24,,,,marker + printed n/denominator
+K03060,rpoZ,Cirrhosis vs CDM,Combined,0,15,0.0,False,0.0,,,,True,"(2) q < 0.05, CDM vs DM",Boruta selection,4,25,24,,,,marker + printed n/denominator
+K03060,rpoZ,CDM vs DM,KO-sum unit (MaAsLin2),,,,,,0.0445145677114535,True,2.90221997335061,True,"(2) q < 0.05, CDM vs DM",MaAsLin2,4,,,0.0012458433703285,0.880463770703965,90,marker at -log10(q) + printed q (3 decimals)
+K03060,rpoZ,CDM vs Cirrhosis,KO-sum unit (MaAsLin2),,,,,,0.114293652424862,False,2.73815063685224,True,"(2) q < 0.05, CDM vs DM",MaAsLin2,4,,,0.0025398589427747,0.890516461875905,90,marker at -log10(q) + printed q (3 decimals)
+K03799,htpX,DM vs CDM,KO,3,25,0.12,False,3.0,,,,False,none,Boruta selection,5,25,25,,,,marker + printed n/denominator
+K03799,htpX,DM vs CDM,Combined,4,25,0.16,False,4.0,,,,False,none,Boruta selection,5,25,25,,,,marker + printed n/denominator
+K03799,htpX,Cirrhosis vs CDM,KO,0,17,0.0,False,0.0,,,,False,none,Boruta selection,5,25,24,,,,marker + printed n/denominator
+K03799,htpX,Cirrhosis vs CDM,Combined,0,15,0.0,False,0.0,,,,False,none,Boruta selection,5,25,24,,,,marker + printed n/denominator
+K03799,htpX,CDM vs DM,KO-sum unit (MaAsLin2),,,,,,0.255594589782942,False,1.42266163052415,False,none,MaAsLin2,5,,,0.0454390381836341,0.704686076877375,90,marker at -log10(q) + printed q (3 decimals)
+K03799,htpX,CDM vs Cirrhosis,KO-sum unit (MaAsLin2),,,,,,0.781196273738209,False,0.59795004075535,False,none,MaAsLin2,5,,,0.402945388591095,0.712731827014658,90,marker at -log10(q) + printed q (3 decimals)
+K03116,tatA,DM vs CDM,KO,3,25,0.12,False,3.0,,,,False,none,Boruta selection,6,25,25,,,,marker + printed n/denominator
+K03116,tatA,DM vs CDM,Combined,1,25,0.04,False,1.0,,,,False,none,Boruta selection,6,25,25,,,,marker + printed n/denominator
+K03116,tatA,Cirrhosis vs CDM,KO,0,17,0.0,False,0.0,,,,False,none,Boruta selection,6,25,24,,,,marker + printed n/denominator
+K03116,tatA,Cirrhosis vs CDM,Combined,0,15,0.0,False,0.0,,,,False,none,Boruta selection,6,25,24,,,,marker + printed n/denominator
+K03116,tatA,CDM vs DM,KO-sum unit (MaAsLin2),,,,,,0.731174991584386,False,0.699899336970763,False,none,MaAsLin2,6,,,0.352386134088181,0.750061035911124,90,marker at -log10(q) + printed q (3 decimals)
+K03116,tatA,CDM vs Cirrhosis,KO-sum unit (MaAsLin2),,,,,,0.881376796215761,False,0.422496240751019,False,none,MaAsLin2,6,,,0.578481588293536,0.758624854440638,90,marker at -log10(q) + printed q (3 decimals)
+K10716,kch,DM vs CDM,KO,0,25,0.0,False,0.0,,,,False,none,Boruta selection,7,25,25,,,,marker + printed n/denominator
+K10716,kch,DM vs CDM,Combined,0,25,0.0,False,0.0,,,,False,none,Boruta selection,7,25,25,,,,marker + printed n/denominator
+K10716,kch,Cirrhosis vs CDM,KO,0,17,0.0,False,0.0,,,,False,none,Boruta selection,7,25,24,,,,marker + printed n/denominator
+K10716,kch,Cirrhosis vs CDM,Combined,0,15,0.0,False,0.0,,,,False,none,Boruta selection,7,25,24,,,,marker + printed n/denominator
+K10716,kch,CDM vs DM,KO-sum unit (MaAsLin2),,,,,,0.24009099260413,False,1.73428878039971,False,none,MaAsLin2,7,,,0.0325555859932122,0.803172050084822,90,marker at -log10(q) + printed q (3 decimals)
+K10716,kch,CDM vs Cirrhosis,KO-sum unit (MaAsLin2),,,,,,0.779729950558309,False,0.80982771155261,False,none,MaAsLin2,7,,,0.320555646340638,0.812342263381596,90,marker at -log10(q) + printed q (3 decimals)
+K03687,grpE,DM vs CDM,KO,0,25,0.0,False,0.0,,,,False,none,Boruta selection,8,25,25,,,,marker + printed n/denominator
+K03687,grpE,DM vs CDM,Combined,0,25,0.0,False,0.0,,,,False,none,Boruta selection,8,25,25,,,,marker + printed n/denominator
+K03687,grpE,Cirrhosis vs CDM,KO,0,17,0.0,False,0.0,,,,False,none,Boruta selection,8,25,24,,,,marker + printed n/denominator
+K03687,grpE,Cirrhosis vs CDM,Combined,0,15,0.0,False,0.0,,,,False,none,Boruta selection,8,25,24,,,,marker + printed n/denominator
+K03687,grpE,CDM vs DM,KO-sum unit (MaAsLin2),,,,,,0.741728647259575,False,0.292208420698364,False,none,MaAsLin2,8,,,0.420312900113759,0.361512808127865,90,marker at -log10(q) + printed q (3 decimals)
+K03687,grpE,CDM vs Cirrhosis,KO-sum unit (MaAsLin2),,,,,,0.8988124642285,False,-0.112400333860875,False,none,MaAsLin2,8,,,0.758997192015178,0.365640379001002,90,marker at -log10(q) + printed q (3 decimals)
+K03101,lspA,DM vs CDM,KO,0,25,0.0,False,0.0,,,,False,none,Boruta selection,9,25,25,,,,marker + printed n/denominator
+K03101,lspA,DM vs CDM,Combined,0,25,0.0,False,0.0,,,,False,none,Boruta selection,9,25,25,,,,marker + printed n/denominator
+K03101,lspA,Cirrhosis vs CDM,KO,0,17,0.0,False,0.0,,,,False,none,Boruta selection,9,25,24,,,,marker + printed n/denominator
+K03101,lspA,Cirrhosis vs CDM,Combined,0,15,0.0,False,0.0,,,,False,none,Boruta selection,9,25,24,,,,marker + printed n/denominator
+K03101,lspA,CDM vs DM,KO-sum unit (MaAsLin2),,,,,,0.799537670575378,False,0.31584527233233,False,none,MaAsLin2,9,,,0.479722602345226,0.445685245028574,90,marker at -log10(q) + printed q (3 decimals)
+K03101,lspA,CDM vs Cirrhosis,KO-sum unit (MaAsLin2),,,,,,0.521062464763004,False,0.726521750379359,False,none,MaAsLin2,9,,,0.109307402998897,0.45077385432431,90,marker at -log10(q) + printed q (3 decimals)

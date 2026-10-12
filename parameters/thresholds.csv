@@ -1,0 +1,49 @@
+name,value,unit,applies_to,note
+prevalence_filter,0.1,fraction of samples,"species and KO features, nested CV","learned on outer training fold only, applied to test fold"
+pseudocount_taxa,1e-05,relative abundance,species log10 transform,
+pseudocount_KO,1e-09,relative abundance,KO log10 transform in nested CV,
+pseudocount_KO_Dir-sFSS,1e-05,relative abundance,Dir-sFSS score,z-score ddof = 1 within cohort
+SparCC_edge_abs_r_lower,0.5,|r| exclusive,SparCC networks,edge if lower < |r| < upper and pseudo-P < 0.05
+SparCC_edge_abs_r_upper,0.9,|r| exclusive,SparCC networks,
+SparCC_edge_pseudo_P,0.05,two-sided pseudo-P,SparCC networks,100 permuted data sets; not multiplicity-corrected
+SparCC_iterations,100,iterations (median),SparCC observed data,
+SparCC_permuted_datasets,100,data sets,SparCC pseudo-P,20 iterations each
+SparCC_exclusion,"10 iterations, threshold 0.1",-,SparCC,
+SparCC_group_prevalence_filter,3,samples in group,filtered SparCC networks,species detected in fewer samples removed
+SparCC_subsample,100,sub-samples of n = 14,"NC, DM, Cirrhosis networks",without replacement
+Spearman_network_solid_edge_abs_rho,0.6,|rho| exclusive,KO-clinical-species correlation network,with BH q < 0.05
+Spearman_network_solid_edge_q,0.05,BH q,KO-clinical-species correlation network,dashed edge: unadjusted P < 0.05
+Spearman_BH_family_size,173,pairs per group,correlation heatmap and network,primary family in sub-samples = testable pairs
+Spearman_network_subsample,1000,sub-samples of n = 14,"NC, DM, Cirrhosis",without replacement; n = 13 sensitivity also 1000
+candidate_genome_ANI,95,percent,species-level candidate genomes,skani
+candidate_genome_alignment_fraction,60,percent,species-level candidate genomes,query aligned fraction
+lineage_ANI,99.5,percent,lineage / clonal neighbours,descriptive
+dedup_ANI,99.9,percent,reference genome de-duplication,one representative per cluster
+reference_CheckM_completeness,90,"percent, >=",reference genomes,
+reference_CheckM_contamination,5,"percent, <",reference genomes,
+MAG_quality_score,50,"completeness - 5 x contamination, >",assembled genomes,MIMAG high: >90 / <5; medium: >=50 / <10
+targeted_contig_min_depth_ratio,0.6,"x reference depth, >=",targeted assembly filter,reference = length-weighted median depth of panel-matching contigs
+targeted_contig_panel_match,0.5,"fraction, >=",targeted assembly filter,
+targeted_contig_decoy_match,0.5,"fraction, <",targeted assembly filter,
+targeted_contig_other_bin_match,0.5,"fraction, <",targeted assembly filter,
+targeted_contig_high_copy_flag,1.6,"x reference depth, >",targeted assembly filter,flag only; contig kept
+blastn_identity,90,percent,contig vs panel/decoy/other bins,megablast
+blastn_min_length,200,bp,contig vs panel/decoy/other bins,HSP length
+blastn_evalue,1e-10,e-value,contig vs panel/decoy/other bins,
+targeted_assembly_min_relative_abundance,0.5,percent,sample selection for targeted assembly,
+MEGAHIT_min_contig_length,1000,bp,assembly,preset meta-sensitive
+bowtie2_recruitment_options,"--local --sensitive-local --score-min C,100 --no-unal",-,read recruitment,version 2.5.4
+bowtie2_depth_mapping_options,--sensitive (end-to-end),-,depth estimation,
+nearest_neighbour_k,10,neighbours (k = 5 also computed),habitat placement,Jaccard distance among reference genomes
+Roary_identity,95,percent,pan-genome,Roary default; not passed explicitly
+MaAsLin2_normalization,NONE,-,KO differential abundance,
+MaAsLin2_transform,LOG,-,KO differential abundance,
+MaAsLin2_analysis_method,LM,-,KO differential abundance,
+MaAsLin2_fixed_effects,"Group, Age, Sex, BMI, Alcohol, PPI, Statin, Probiotics",-,KO differential abundance,three reference levels
+MaAsLin2_max_significance,0.25,q,KO differential abundance,q < 0.05 marks significance in figures
+PERMANOVA_permutations,999,permutations,beta diversity,
+bootstrap_replicates,2000,resamples,AUROC confidence intervals,stratified
+IQ-TREE_ultrafast_bootstrap,1000,replicates,phylogeny,model selection MFP
+Boruta_max_iterations,1000,iterations,feature selection,alpha 0.05
+nested_CV_outer_folds,5,folds,model evaluation,5 seeds
+nested_CV_inner_folds,3,folds,hyperparameter selection,
