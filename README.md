@@ -37,10 +37,9 @@ listed in `CHANGES_from_v1.md`.
 
 ## Figure values
 
-Each file is named after the figure and panel it belongs to; files ending in
+Each file is named after the figure and panel it belongs to. Files ending in
 `_aggregated` contain group-level summaries and test results only. Schematic
-panels (Fig. 1A, Fig. 2A) have no underlying values, and the design numbers of
-the cross-validation scheme are given in `Fig2A_nested_CV_schematic.csv`.
+panels have no underlying values.
 
 ## Scope
 
